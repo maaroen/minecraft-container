@@ -13,10 +13,10 @@
 	#Set this to true if you don't want the tweak buttons' tooltips to show.
 	hideButtonTooltips = false
 	#We both know JEI is much better. This option hides Vanilla's crafting book button instead of moving it.
-	hideVanillaCraftingGuide = false
+	hideVanillaCraftingGuide = true
 	#Set to 'DEFAULT' to enable both buttons and hotkeys. Set to 'BUTTONS' to enable buttons only. Set to 'HOTKEYS' to enable hotkeys only.
 	#Allowed Values: DEFAULT, BUTTONS, HOTKEYS, DISABLED
 	craftingTweaksMode = "DEFAULT"
 	#Add mod ids here of mods that you wish to disable Crafting Tweaks support for.
-	disabledAddons = ["refinedstorage"]
+	disabledAddons = []
 

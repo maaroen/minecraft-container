@@ -46,5 +46,5 @@ fi
 	echo "$JVM_OPTS"
 } > user_jvm_args.txt
 
-# Call the Vault Hunters start script
-./start.sh
+# Call the AllTheMods start script
+./startserver.sh

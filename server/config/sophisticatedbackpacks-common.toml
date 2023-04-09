@@ -2,17 +2,15 @@
 #Common Settings
 [common]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
-	disallowedItems = ["the_vault:vault_compass", "minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "minecraft:enchanted_golden_apple", "minecraft:chorus_fruit", "supplementaries:sack", "supplementaries:safe"]
+	disallowedItems = ["botania:mana_bottle"]
 	#Turns on/off loot added to various vanilla chest loot tables
-	chestLootEnabled = false
+	chestLootEnabled = true
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
 	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
 	allowOpeningOtherPlayerBackpacks = false
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
-	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
-	noInteractionBlocks = ["the_vault:wooden_chest", "the_vault:altar_chest", "the_vault:gilded_chest", "the_vault:ornate_chest", "the_vault:treasure_chest", "the_vault:living_chest"]
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -21,7 +19,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 1
 
 	#Iron Backpack Settings
 	[common.ironBackpack]
@@ -30,7 +28,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 2
 
 	#Gold Backpack Settings
 	[common.goldBackpack]
@@ -209,7 +207,7 @@
 		#Range: 1 ~ 6
 		slotsInRow = 3
 		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = false
+		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[common.advancedVoidUpgrade]
@@ -225,7 +223,7 @@
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["minecraft:totem_of_undying", "supplementaries:sack", "minecraft:potion", "supplementaries:safe"]
+		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
@@ -375,9 +373,9 @@
 	[common.entityBackpackAdditions]
 		#Chance of an entity spawning with Backpack
 		#Range: 0.0 ~ 1.0
-		chance = 0.0
+		chance = 0.01
 		#Turns on/off addition of loot into backpacks
-		addLoot = false
+		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
 		buffWithPotionEffects = true
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
@@ -389,7 +387,7 @@
 		#List of music discs that are not supposed to be played by entities
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
-		playJukebox = false
+		playJukebox = true
 		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
 		dropToFakePlayers = false
 		#Chance of mob dropping backpack when killed by player
@@ -410,13 +408,4 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
-
-	#Advanced Refill Upgrade Settings
-	[common.advancedRefillUpgrade]
-		#Number of Advanced Refill Upgrade's filter slots
-		#Range: 1 ~ 20
-		filterSlots = 12
-		#Number of filter slots displayed in a row
-		#Range: 1 ~ 6
-		slotsInRow = 4
 

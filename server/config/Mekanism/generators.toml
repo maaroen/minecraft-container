@@ -25,12 +25,16 @@
 	#Turbine Settings
 	[generators.turbine]
 		#The number of blades on each turbine coil per blade applied.
+		#Range: 1 ~ 12
 		turbineBladesPerCoil = 4
 		#The rate at which steam is vented into the turbine.
+		#Range: 0.1 ~ 1024000.0
 		turbineVentGasFlow = 32000.0
 		#The rate at which steam is dispersed into the turbine.
+		#Range: 0.1 ~ 1024000.0
 		turbineDisperserGasFlow = 1280.0
 		#The rate at which steam is condensed in the turbine.
+		#Range: 1 ~ 2000000
 		condenserRate = 64000
 
 	#Wind Generator Settings
@@ -38,7 +42,7 @@
 		#Minimum base generation value of the Wind Generator.
 		windGenerationMin = "60"
 		#Maximum base generation value of the Wind Generator.
-		generationMax = "480"
+		generationMax = "240"
 		#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's min height.
 		#Range: -2032 ~ 2030
 		minY = 24
@@ -73,16 +77,21 @@
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
 		energyPerFissionFuel = "1000000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
+		#Range: 1.0 ~ 1000000.0
 		casingHeatCapacity = 1000.0
 		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0
 		#Whether catastrophic meltdowns can occur from Fission Reactors. If disabled instead of melting down the reactor will turn off and not be able to be turned back on until the damage level decreases.
 		meltdownsEnabled = true
+		#The radius of the explosion that occurs from a meltdown.
+		#Range: 1.0 ~ 500.0
+		meltdownRadius = 8.0
 		#The chance of a meltdown occurring once damage passes 100%. Will linearly scale as damage continues increasing.
 		#Range: 0.0 ~ 1.0
 		meltdownChance = 0.001
 		#How much radioactivity of fuel/waste contents are multiplied during a meltdown.
+		#Range: 0.1 ~ 1000000.0
 		meltdownRadiationMultiplier = 50.0
 		#Damage to reset the reactor to after a meltdown.
 		#Range: 0.0 ~ 100.0
