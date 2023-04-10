@@ -16,6 +16,11 @@ rm -rf ./config  ./defaultconfigs ./mods ./packmenu ./patchouli_books  ./scripts
 # Install the server files of the current update
 cp -rf /server/* /data/
 
+# Install the server properties ONLY if it doesn't already exist so that modification are not lost
+if [ ! -e server.properties ]; then
+    cp /server.properties /data/
+fi
+
 if [[ -n "$MOTD" ]]; then
     sed -i "/motd\s*=/ c motd=$MOTD" server.properties
 fi

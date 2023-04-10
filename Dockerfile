@@ -13,6 +13,8 @@ RUN dos2unix /launch.sh
 RUN chmod +x /launch.sh
 
 COPY --chown=minecraft:minecraft server /server
+COPY --chown=minecraft:minecraft server.properties /
+
 RUN dos2unix /server/startserver.sh
 RUN chmod +x /server/startserver.sh
 
