@@ -32,6 +32,3 @@ EXPOSE 25565/tcp
 CMD ["/launch.sh"]
 
 ENV EULA "false"
-
-# Start with 4G of ram expandable to 16G
-ENV JVM_OPTS "-Xms4g -Xmx16g"

@@ -44,12 +44,13 @@ if [[ -n "$OPS" ]]; then
     echo $OPS | awk -v RS=, '{print}' >> ops.txt
 fi
 
-# On every start, update the Java command line options
-{
-	echo "# WARNING: AUTO-GENERATED"
-	echo "# WARNING: Use the container environment variable JVM_OPTS"
-	echo "$JVM_OPTS"
-} > user_jvm_args.txt
+if [ ! -e user_jvm_args.txt ]; then
+    {
+    	echo "# WARNING: AUTO-GENERATED"
+    	echo "# WARNING: Use the container environment variable JVM_OPTS"
+    	echo "$JVM_OPTS"
+    } > user_jvm_args.txt
+fi
 
 # Call the AllTheMods start script
 ./startserver.sh

@@ -1,10 +1,9 @@
 version: "3.8"
 services:
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-# Minecraft Vault Hunters 3rd Edition
-  vault-hunters:
-    #'latest' is an alias of '3rd-edition' which is alias of 'wotupfoo/vault-hunters:3rd-edition-update-7.7'
-    image: wotupfoo/vault-hunters:3rd-edition
+# All The Mods 8
+  allthemods8:
+    image: wotupfoo/allthemods8:latest
 
 # If you are running the server with the user `root` you need to uncomment this line
 #    user: root
@@ -23,24 +22,10 @@ services:
 # The persistent storage directory to save the install. You MUST have this, otherwise your entire server
 # will be lost if you stop the container.
     volumes:
-      - ./vault-hunters-1.18.2:/data
+      - ./allthemods8:/data
 
 # Environment variable overrides from the defaults.
 
     environment:
 # You must have this set to true to accept the End User License Agreement terms and conditions
         - EULA=true
-# The amount of system memory the server is allowed to use. Vault Hunters needs at least 6GB.
-        - JVM_OPTS=-Xmx16g
-# This happens to be the world I chose to use. Comment it out to make it random or put in your own value.
-        - LEVELSEED="7229311241545822825"
-
-# default enironment variable values
-#        - JVM_OPTS : "-Xms2g -Xmx6g"
-#        - JAVA_HOME : "/usr/local/openjdk-17"
-#        - JAVA_VERSION : "17"
-#        - MOTD : "Vault Hunters 3rd Edition Powered by Docker"
-#        - LEVEL : "Vault-Hunters"
-#        - LEVELSEED : default is random
-#        - GAMEMODE : "survival"
-#        - DIFFICULTY : "normal"
