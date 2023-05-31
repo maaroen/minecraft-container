@@ -64,7 +64,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
+          "AMOUNT": 512,
           "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
@@ -94,12 +94,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
+          "AMOUNT": 512,
           "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 32,
+          "AMOUNT": 64,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
@@ -370,12 +370,12 @@
       },
       "inputs": [
         {
-          "AMOUNT": 64,
+          "AMOUNT": 128,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
+          "AMOUNT": 256,
           "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
@@ -420,17 +420,22 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:living_chest_scroll",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:gilded_chest_scroll",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
+          "AMOUNT": 1,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
           "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },

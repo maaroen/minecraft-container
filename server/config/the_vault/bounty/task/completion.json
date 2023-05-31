@@ -127,7 +127,7 @@
           "value": {
             "value": "scavenger",
             "amount": {
-              "min": 1,
+              "min": 2,
               "max": 2
             },
             "floorToNearestTen": false,
@@ -197,6 +197,20 @@
           "weight": 20
         },
         {
+          "rewardPool": "rare",
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
           "rewardPool": "common",
           "value": {
             "value": "monolith",
@@ -244,7 +258,7 @@
             "value": "boss",
             "amount": {
               "min": 2,
-              "max": 2
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],

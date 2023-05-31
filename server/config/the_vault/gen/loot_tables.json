@@ -116,6 +116,11 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_35_v2.json"
     },
     {
+      "id": "the_vault:gilded_strongbox_lvl50_v2",
+      "name": "Gilded Strongbox Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_strongbox_50_v2.json"
+    },
+    {
       "id": "the_vault:wooden_chest_lvl0_v2",
       "name": "Wooden Chest Lvl0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_0_v2.json"
@@ -166,6 +171,16 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_65_v2.json"
     },
     {
+      "id": "the_vault:ornate_strongbox_lvl50_v2",
+      "name": "Ornate Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_50_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_strongbox_lvl65_v2",
+      "name": "Ornate Chest Lvl65",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_65_v2.json"
+    },
+    {
       "id": "the_vault:altar_chest_lvl0_v2",
       "name": "Altar Chest Lvl0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/altar_chest_0_v2.json"
@@ -189,6 +204,21 @@
       "id": "the_vault:completion_lvl27",
       "name": "Completion Crate lvl27",
       "1.0": "config/the_vault/gen/1.0/loot_tables/completion_lvl27.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl50_v2",
+      "name": "Living Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_50_v2.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl54_v2",
+      "name": "Living Chest Lvl54",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_54_v2.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl75_v2",
+      "name": "Living Chest Lvl75",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_75_v2.json"
     }
   ]
 }

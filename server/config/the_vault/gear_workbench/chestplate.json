@@ -16,7 +16,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -34,7 +34,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -52,7 +52,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -70,11 +70,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -88,7 +88,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -106,7 +106,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -124,7 +124,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -142,11 +142,29 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_health_t4",
+        "modifierIdentifier": "the_vault:crafted_health",
+        "modifierTier": 4,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -160,7 +178,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -178,7 +196,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -196,7 +214,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -214,11 +232,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -232,7 +250,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -250,7 +268,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -264,29 +282,11 @@
         "workbenchCraftIdentifier": "the_vault:crafted_mana_per_t2",
         "modifierIdentifier": "the_vault:crafted_mana_additive_percentile",
         "modifierTier": 2,
-        "unlockCategory": "LEVEL",
-        "craftingCost": [
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_mana_per_t3",
-        "modifierIdentifier": "the_vault:crafted_mana_additive_percentile",
-        "modifierTier": 3,
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 8,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -304,7 +304,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -322,7 +322,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -340,25 +340,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_resistance_t3",
-        "modifierIdentifier": "the_vault:crafted_resistance",
-        "modifierTier": 3,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -376,7 +358,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -394,7 +376,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -412,7 +394,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -430,11 +412,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -448,7 +430,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -466,7 +448,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -484,7 +466,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -502,11 +484,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -520,7 +502,43 @@
         "craftingCost": [
           {
             "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_critical_hit_mitigation_t0",
+        "modifierIdentifier": "the_vault:crafted_critical_hit_mitigation",
+        "modifierTier": 0,
+        "unlockCategory": "LEVEL",
+        "craftingCost": [
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 2,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_critical_hit_mitigation_t1",
+        "modifierIdentifier": "the_vault:crafted_critical_hit_mitigation",
+        "modifierTier": 1,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -534,33 +552,15 @@
         "workbenchCraftIdentifier": "the_vault:crafted_block_chance_t0",
         "modifierIdentifier": "the_vault:crafted_block_chance",
         "modifierTier": 0,
-        "unlockCategory": "LEVEL",
+        "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_block_chance_t1",
-        "modifierIdentifier": "the_vault:crafted_block_chance",
-        "modifierTier": 1,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -576,7 +576,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -594,7 +594,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -612,7 +612,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -630,25 +630,7 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_durability_t4",
-        "modifierIdentifier": "the_vault:crafted_durability",
-        "modifierTier": 4,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -666,7 +648,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -684,7 +666,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -702,7 +684,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -720,11 +702,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -738,11 +720,11 @@
         "craftingCost": [
           {
             "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 4,
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -756,11 +738,11 @@
         "craftingCost": [
           {
             "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 4,
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -774,7 +756,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -792,7 +774,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -810,7 +792,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -828,7 +810,7 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -846,7 +828,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -864,7 +846,7 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -882,7 +864,7 @@
         "craftingCost": [
           {
             "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -900,7 +882,7 @@
         "craftingCost": [
           {
             "AMOUNT": 48,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -918,7 +900,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -936,7 +918,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -954,7 +936,7 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -971,12 +953,12 @@
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 32,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -990,7 +972,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1008,7 +990,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1026,7 +1008,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1044,7 +1026,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1062,7 +1044,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1080,7 +1062,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1098,7 +1080,7 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1116,7 +1098,7 @@
         "craftingCost": [
           {
             "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1134,7 +1116,7 @@
         "craftingCost": [
           {
             "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1152,7 +1134,7 @@
         "craftingCost": [
           {
             "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1170,11 +1152,11 @@
         "craftingCost": [
           {
             "AMOUNT": 16,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -1188,11 +1170,11 @@
         "craftingCost": [
           {
             "AMOUNT": 32,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 4,
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -1205,12 +1187,12 @@
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 48,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 8,
+            "AMOUNT": 12,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -1223,8 +1205,8 @@
         "unlockCategory": "LEVEL",
         "craftingCost": [
           {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 4,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
@@ -1241,12 +1223,12 @@
         "unlockCategory": "LEVEL",
         "craftingCost": [
           {
-            "AMOUNT": 4,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 8,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 1,
+            "AMOUNT": 2,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -1259,12 +1241,12 @@
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vaulterite_ingot",
+            "AMOUNT": 16,
+            "ITEM": "the_vault:amplifying_focus",
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }

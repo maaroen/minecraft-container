@@ -1,10 +1,11 @@
-version: "3.8"
+version: "3.5"
 services:
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # Minecraft Vault Hunters 3rd Edition
   vault-hunters:
     #'latest' is an alias of '3rd-edition' which is alias of 'wotupfoo/vault-hunters:3rd-edition-update-7.7'
-    image: wotupfoo/vault-hunters:3rd-edition
+#     image: wotupfoo/vault-hunters:3rd-edition
+    image: afrye51/vault-hunters:3-10.0.1
 
 # If you are running the server with the user `root` you need to uncomment this line
 #    user: root
@@ -23,7 +24,7 @@ services:
 # The persistent storage directory to save the install. You MUST have this, otherwise your entire server
 # will be lost if you stop the container.
     volumes:
-      - ./vault-hunters-1.18.2:/data
+      - ~/Minecraft:/data
 
 # Environment variable overrides from the defaults.
 
@@ -31,9 +32,9 @@ services:
 # You must have this set to true to accept the End User License Agreement terms and conditions
         - EULA=true
 # The amount of system memory the server is allowed to use. Vault Hunters needs at least 6GB.
-        - JVM_OPTS=-Xmx16g
+        - JVM_OPTS=-Xmx6g
 # This happens to be the world I chose to use. Comment it out to make it random or put in your own value.
-        - LEVELSEED="7229311241545822825"
+        # - LEVELSEED="7229311241545822825"
 
 # default enironment variable values
 #        - JVM_OPTS : "-Xms2g -Xmx6g"

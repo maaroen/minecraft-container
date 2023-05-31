@@ -101,6 +101,31 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_gingerbread.json"
     },
     {
+      "id": "the_vault:universal_mushroom",
+      "name": "Universal Mushroom",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_mushroom.json"
+    },
+    {
+      "id": "the_vault:universal_easter_pastel",
+      "name": "Universal Easter Pastel",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_easter_pastel.json"
+    },
+    {
+      "id": "the_vault:universal_easter_egg",
+      "name": "Universal Easter Egg",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_easter_egg.json"
+    },
+    {
+      "id": "the_vault:universal_shipwreck",
+      "name": "Universal Shipwreck",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_shipwreck.json"
+    },
+    {
+      "id": "the_vault:universal_flooded",
+      "name": "Universal Flooded",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_flooded.json"
+    },
+    {
       "id": "the_vault:arena/classic",
       "name": "Arena Classic",
       "1.0": "config/the_vault/gen/1.0/palettes/arena/classic.json"
@@ -804,6 +829,71 @@
       "id": "the_vault:generic/hidden_placeholder",
       "name": "Hidden Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/hidden_placeholder.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/assassin_mobs",
+      "name": "Assasin Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/assassin_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/group_settings",
+      "name": "Group Settings",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/group_settings.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/beach_mobs",
+      "name": "Beach Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/beach_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/mushroom_mobs",
+      "name": "Mushroom Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/mushroom_mobs.json"
+    },
+    {
+      "id": "the_vault:universal_white",
+      "name": "Universal White",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_white.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_alternate_white",
+      "name": "Ore Placeholder Alternate White",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_white.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_white",
+      "name": "Ore Placeholder White",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_white.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/easter_mobs",
+      "name": "Easter Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/easter_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/white_mobs",
+      "name": "White Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/white_mobs.json"
+    },
+    {
+      "id": "the_vault:universal_haunted",
+      "name": "Universal Haunted",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_haunted.json"
+    },
+    {
+      "id": "the_vault:generic/ice_elite_spawners",
+      "name": "Ice Elite Spawners",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ice_elite_spawners.json"
+    },
+    {
+      "id": "the_vault:generic/nether_elite_spawners",
+      "name": "Nether Elite Spawners",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/nether_elite_spawners.json"
+    },
+    {
+      "id": "the_vault:universal_sea_floor",
+      "name": "Universal Sea Floor",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_sea_floor.json"
     }
   ]
 }

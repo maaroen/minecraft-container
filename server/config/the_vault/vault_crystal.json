@@ -15,6 +15,83 @@
         "level": 0,
         "pool": [
           {
+            "value": "the_vault:classic_vault_ice",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_ice_cave",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_deepslate",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_geode",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_wasteland",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_lush_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_living_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_desert",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_sandy_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_flooded",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_haunted",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_shipwreck",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_sea_floor",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_mushroom",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_mesa",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_deep_mesa",
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "pool": [
+          {
             "value": "the_vault:classic_vault_sweet",
             "weight": 3
           },
@@ -60,6 +137,26 @@
           },
           {
             "value": "the_vault:classic_vault_beach",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_flooded",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_haunted",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_shipwreck",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_sea_floor",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_mushroom",
             "weight": 8
           },
           {
@@ -70,13 +167,13 @@
             "value": "the_vault:classic_vault_deep_mesa",
             "weight": 4
           },
-          {
-            "value": "the_vault:classic_vault_festive",
-            "weight": 0
+		      {
+            "value": "the_vault:classic_vault_easter_egg",
+            "weight": 2
           },
-          {
-            "value": "the_vault:classic_vault_gingerbread",
-            "weight": 0
+		      {
+            "value": "the_vault:classic_vault_easter_pastel",
+            "weight": 2
           }
         ]
       },
@@ -129,6 +226,26 @@
           },
           {
             "value": "the_vault:classic_vault_beach",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_flooded",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_haunted",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_shipwreck",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_sea_floor",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_mushroom",
             "weight": 16
           },
           {
@@ -162,6 +279,14 @@
           {
             "value": "the_vault:classic_vault_gingerbread",
             "weight": 0
+          },
+		      {
+            "value": "the_vault:classic_vault_easter_egg",
+            "weight": 3
+          },
+		      {
+            "value": "the_vault:classic_vault_easter_pastel",
+            "weight": 3
           }
         ]
       },
@@ -214,6 +339,26 @@
           },
           {
             "value": "the_vault:classic_vault_beach",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_flooded",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_haunted",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_shipwreck",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_sea_floor",
+            "weight": 9
+          },
+          {
+            "value": "the_vault:classic_vault_mushroom",
             "weight": 16
           },
           {
@@ -259,6 +404,14 @@
           {
             "value": "the_vault:classic_vault_gingerbread",
             "weight": 0
+          },
+		      {
+            "value": "the_vault:classic_vault_easter_egg",
+            "weight": 3
+          },
+		      {
+            "value": "the_vault:classic_vault_easter_pastel",
+            "weight": 3
           }
         ]
       }
@@ -1069,10 +1222,6 @@
               "z": -10
             }
           ]
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1115,10 +1264,6 @@
               "z": -10
             }
           ]
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1161,10 +1306,6 @@
               "z": -10
             }
           ]
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1207,10 +1348,6 @@
               "z": -10
             }
           ]
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       }
     ],
@@ -1223,10 +1360,6 @@
         "objective": {
           "type": "elixir",
           "objective_probability": 0.5
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1237,10 +1370,6 @@
         "objective": {
           "type": "elixir",
           "objective_probability": 0.3
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1251,10 +1380,6 @@
         "objective": {
           "type": "elixir",
           "objective_probability": 0.15
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       }
     ],
@@ -1267,10 +1392,6 @@
         "objective": {
           "type": "scavenger",
           "objective_probability": 1.0
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       },
       {
@@ -1281,10 +1402,6 @@
         "objective": {
           "type": "scavenger",
           "objective_probability": 0.75
-        },
-        "theme": {
-          "type": "pool",
-          "id": "the_vault:default"
         }
       }
     ],

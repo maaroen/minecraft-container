@@ -1,6 +1,6 @@
 {
   "data": {
-    "Dash": {
+    "Dash_Base": {
       "description": [
         {
           "text": "Propels you a ",
@@ -64,7 +64,50 @@
         "damage"
       ]
     },
-    "Execute": {
+    "Dash_Warp": {
+      "description": [
+        {
+          "text": "Shoot a ",
+          "color": "$text"
+        },
+        {
+          "text": "magic arrow",
+          "color": "$force"
+        },
+        {
+          "text": " that teleports you to its location ",
+          "color": "$text"
+        },
+        {
+          "text": "on impact",
+          "color": "$name"
+        },
+        {
+          "text": "\nIf you hit a mob or another player you swap places with them",
+          "color": "$text"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "force"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "force"
+      ]
+    },
+    "Execute_Base": {
       "description": [
         {
           "text": "Deals ",
@@ -103,7 +146,7 @@
         "damage"
       ]
     },
-    "Farmer": {
+    "Farmer_Base": {
       "description": [
         {
           "text": "Increases growth speed on crops in a ",
@@ -345,7 +388,7 @@
         "rangeVertical"
       ]
     },
-    "Ghost Walk": {
+    "Ghost_Walk_Base": {
       "description": [
         {
           "text": "Makes you invisible for a ",
@@ -376,7 +419,46 @@
         "duration"
       ]
     },
-    "Heal": {
+    "Ghost_Walk_Spirit": {
+      "description": [
+        {
+          "text": "Makes you invisible for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ". Attacking anything, breaking a block, or opening a container during the ",
+          "color": "$text"
+        },
+        {
+          "text": "Spirit Walk",
+          "color": "$name"
+        },
+        {
+          "text": " will cancel its effect.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
+    "Heal_Base": {
       "description": [
         {
           "text": "Heals you for an amount of ",
@@ -407,7 +489,7 @@
         "heal"
       ]
     },
-    "Heal_Effect": {
+    "Heal_Cleanse": {
       "description": [
         {
           "text": "Changes Heal to instead Cleanse any negative effect affecting you.\n\n",
@@ -461,10 +543,10 @@
         "radius"
       ]
     },
-    "Hunter": {
+    "Hunter_Base": {
       "description": [
         {
-          "text": "Highlights chests inside the vault in a ",
+          "text": "Highlights wooden chests inside the vault in a ",
           "color": "$text"
         },
         {
@@ -748,7 +830,7 @@
         "radius"
       ]
     },
-    "Mana Shield": {
+    "Mana_Shield_Base": {
       "description": [
         {
           "text": "Gives you a mana shield that ",
@@ -789,7 +871,70 @@
         "manaPerDamage"
       ]
     },
-    "Mega Jump": {
+    "Mana_Shield_Retribution": {
+      "description": [
+        {
+          "text": "Gives you a mana shield that ",
+          "color": "$text"
+        },
+        {
+          "text": "redirects a percentage",
+          "color": "$absorb"
+        },
+        {
+          "text": " of incoming damage to your ",
+          "color": "$text"
+        },
+        {
+          "text": "mana pool",
+          "color": "$manaCost"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "After absorbing damage, your next attack's damage will be added to ",
+          "color": "$text"
+        },
+        {
+          "text": "a percentage of the absorbed damage",
+          "color": "$damage"
+        },
+        {
+          "text": " and dealt to all mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around your target.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "absorb",
+        "radius",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "absorb",
+        "radius",
+        "damage"
+      ]
+    },
+    "Mega_Jump_Base": {
       "description": [
         {
           "text": "Gives you the ability to ",
@@ -820,7 +965,7 @@
         "rangeVertical"
       ]
     },
-    "Mega Jump_Break_Down": {
+    "Mega_Jump_Break_Down": {
       "description": [
         {
           "text": "Changes Mega Jump to a Mega Dig! Instead of launching you up in the air it drills you downwards in to blocks, breaking them on the way.\n\n",
@@ -838,16 +983,18 @@
       "current": [
         "cooldown",
         "manaCost",
-        "rangeVertical"
+        "rangeVertical",
+        "radius"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
-        "rangeVertical"
+        "rangeVertical",
+        "radius"
       ]
     },
-    "Mega Jump_Break_Up": {
+    "Mega_Jump_Break_Up": {
       "description": [
         {
           "text": "Changes your mega jump to break blocks that you jump in to.\n\n",
@@ -874,7 +1021,7 @@
         "rangeVertical"
       ]
     },
-    "Nova": {
+    "Nova_Base": {
       "description": [
         {
           "text": "Deal a ",
@@ -966,7 +1113,7 @@
         "duration"
       ]
     },
-    "Nova_Speed": {
+    "Nova_Slow": {
       "description": [
         {
           "text": "Changes Nova to freeze mobs around you in a ",
@@ -985,7 +1132,15 @@
           "color": "$duration"
         },
         {
-          "text": " but will still able to attack you.\n\n",
+          "text": ", and then get ",
+          "color": "$text"
+        },
+        {
+          "text": "Hypothermia",
+          "color": "$slowness"
+        },
+        {
+          "text": ", causing them to be permanently slowed and take damage every 3 seconds\n\n",
           "color": "$text"
         },
         {
@@ -1007,7 +1162,7 @@
         "duration"
       ]
     },
-    "Rampage": {
+    "Rampage_Base": {
       "description": [
         {
           "text": "Puts you in a state of rampage, giving you an additional ",
@@ -1100,10 +1255,10 @@
         "leech"
       ]
     },
-    "Stonefall": {
+    "Stonefall_Base": {
       "description": [
         {
-          "text": "Makes you immune to ",
+          "text": "Reduces ",
           "color": "$text"
         },
         {
@@ -1111,12 +1266,20 @@
           "color": "$damage"
         },
         {
-          "text": " for the next ",
+          "text": " when landing while ",
           "color": "$text"
         },
         {
-          "text": "few seconds",
+          "text": "active",
           "color": "$duration"
+        },
+        {
+          "text": " knocking back",
+          "color": "$radius"
+        },
+        {
+          "text": " mobs in a radius",
+          "color": "$text"
         },
         {
           "text": ".\n\n",
@@ -1130,24 +1293,44 @@
       "current": [
         "cooldown",
         "manaCost",
+        "damageReduction",
+        "knockback",
         "duration"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
+        "damageReduction",
+        "knockback",
         "duration"
       ]
     },
     "Stonefall_Cold": {
       "description": [
         {
-          "text": "Changes Stonefall to instead grant you fire immunity for a ",
+          "text": "Reduces ",
           "color": "$text"
         },
         {
-          "text": "duration",
+          "text": "fall damage",
+          "color": "$damage"
+        },
+        {
+          "text": " when landing while ",
+          "color": "$text"
+        },
+        {
+          "text": "active",
           "color": "$duration"
+        },
+        {
+          "text": " freezing",
+          "color": "$slowness"
+        },
+        {
+          "text": " nearby mobs in a radius\nThe size of the freeze is based is based off the fall distance",
+          "color": "$text"
         },
         {
           "text": ".\n\n",
@@ -1161,27 +1344,47 @@
       "current": [
         "cooldown",
         "manaCost",
+        "damageReduction",
+        "slowness",
         "duration"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
+        "damageReduction",
+        "slowness",
         "duration"
       ]
     },
     "Stonefall_Snow": {
       "description": [
         {
-          "text": "Changes Stonefall to instead destroy powdered snow in a ",
+          "text": "Reduces ",
           "color": "$text"
         },
         {
-          "text": "radius",
-          "color": "$radius"
+          "text": "fall damage",
+          "color": "$damage"
         },
         {
-          "text": " around you.\n\n",
+          "text": " when landing while ",
+          "color": "$text"
+        },
+        {
+          "text": "active",
+          "color": "$duration"
+        },
+        {
+          "text": " dealing damage",
+          "color": "$damage"
+        },
+        {
+          "text": " to nearby mobs in a radius\nThe damage based is based off the fall distance and multiplied by your weapon damage",
+          "color": "$text"
+        },
+        {
+          "text": ".\n\n",
           "color": "$text"
         },
         {
@@ -1192,16 +1395,20 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius"
+        "damageReduction",
+        "damage",
+        "duration"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
-        "radius"
+        "damageReduction",
+        "damage",
+        "duration"
       ]
     },
-    "Summon Eternal": {
+    "Summon_Eternal_Base": {
       "description": [
         {
           "text": "Summons your ",
@@ -1234,34 +1441,65 @@
         "duration"
       ]
     },
-    "Tank": {
+    "Empower_Base": {
       "description": [
         {
-          "text": "Gives you extra ",
+          "text": "Gives you an aura of ",
           "color": "$text"
         },
         {
-          "text": "resistance",
-          "color": "$resistance"
+          "text": "movement speed",
+          "color": "$speed"
         },
         {
-          "text": " every time you take a hit from a mob. The extra ",
+          "text": ". Affecting you and other players within ",
           "color": "$text"
         },
         {
-          "text": "resistance",
-          "color": "$resistance"
+          "text": "range",
+          "color": "$radius"
         },
         {
-          "text": " stacks and lasts for a ",
+          "text": "  while active\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "speed",
+        "radius",
+        "cooldown",
+        "manaCostPerSecond"
+        
+      ],
+      "next": [
+        "level",
+        "speed",
+        "radius",
+        "cooldown",
+        "manaCostPerSecond"
+        
+      ]
+    },
+    "Empower_Ice_Armor": {
+      "description": [
+        {
+          "text": "Gives you an aura of frost ",
           "color": "$text"
         },
         {
-          "text": "duration of time",
-          "color": "$duration"
+          "text": "slowing down",
+          "color": "$slowness"
         },
         {
-          "text": " as long as you keep getting hit.\n\n",
+          "text": " mobs in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around you while active\n\n",
           "color": "$text"
         },
         {
@@ -1270,118 +1508,19 @@
         }
       ],
       "current": [
+        "radius",
         "cooldown",
-        "manaCostPerSecond",
-        "duration",
-        "resistance"
+        "manaCostPerSecond"
+        
       ],
       "next": [
         "level",
+        "radius",
         "cooldown",
-        "manaCostPerSecond",
-        "duration",
-        "resistance"
+        "manaCostPerSecond"
       ]
     },
-    "Tank_Projectile": {
-      "description": [
-        {
-          "text": "Changes Tank to instead of giving ",
-          "color": "$text"
-        },
-        {
-          "text": "resistance",
-          "color": "$resistance"
-        },
-        {
-          "text": " it gives you ",
-          "color": "$text"
-        },
-        {
-          "text": "projectile resistance",
-          "color": "$projectileDamageTaken"
-        },
-        {
-          "text": " and ",
-          "color": "$text"
-        },
-        {
-          "text": "knockback resistance",
-          "color": "$knockback"
-        },
-        {
-          "text": " while active.\n\n",
-          "color": "$text"
-        },
-        {
-          "text": "\u25d0 Toggle Ability ",
-          "color": "$castType"
-        }
-      ],
-      "current": [
-        "cooldown",
-        "manaCostPerSecond",
-        "reducedProjectileDamageTaken",
-        "resistanceKnockback"
-      ],
-      "next": [
-        "level",
-        "cooldown",
-        "manaCostPerSecond",
-        "reducedProjectileDamageTaken",
-        "resistanceKnockback"
-      ]
-    },
-    "Tank_Reflect": {
-      "description": [
-        {
-          "text": "Changes Tank to instead of giving ",
-          "color": "$text"
-        },
-        {
-          "text": "resistance",
-          "color": "$resistance"
-        },
-        {
-          "text": " it gives you extra ",
-          "color": "$text"
-        },
-        {
-          "text": "thorns chance",
-          "color": "$chance"
-        },
-        {
-          "text": " and ",
-          "color": "$text"
-        },
-        {
-          "text": "thorns damage",
-          "color": "$damage"
-        },
-        {
-          "text": ".\n\n",
-          "color": "$text"
-        },
-        {
-          "text": "\u25d0 Toggle Ability ",
-          "color": "$castType"
-        }
-      ],
-      "current": [
-        "cooldown",
-        "manaCostPerSecond",
-        "chance",
-        "damage"
-      ],
-      "next": [
-        "level",
-        "cooldown",
-        "manaCostPerSecond",
-        "chance",
-        "damage"
-      ]
-    },
-    "Taunt": {
+    "Taunt_Base": {
       "description": [
         {
           "text": "Taunts mobs around you in a ",
@@ -1392,7 +1531,15 @@
           "color": "$radius"
         },
         {
-          "text": ". A taunted mob gets angry and yeeted towards you. The mobs will stay taunted for a ",
+          "text": ", angering them towards you, ",
+          "color": "$text"
+        },
+        {
+          "text": "increasing your damage",
+          "color": "$damage"
+        },
+        {
+          "text": " against them for a ",
           "color": "$text"
         },
         {
@@ -1412,14 +1559,16 @@
         "cooldown",
         "manaCost",
         "radius",
-        "duration"
+        "duration",
+        "damageIncrease"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
         "radius",
-        "duration"
+        "duration",
+        "damageIncrease"
       ]
     },
     "Taunt_Repel": {
@@ -1473,7 +1622,250 @@
         "distance"
       ]
     },
-    "Vein Miner": {
+    "Taunt_Charm": {
+      "description": [
+        {
+          "text": "Charms a ",
+          "color": "$text"
+        },
+        {
+          "text": "number of mobs",
+          "color": "$maxTargets"
+        },
+        {
+          "text": " within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around you to fight for you. Charmed mobs deal a ",
+          "color": "$text"
+        },
+        {
+          "text": "percentage of your damage",
+          "color": "$damage"
+        },
+        {
+          "text": " to their targets",
+          "color": "$text"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "maxTargets",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "maxTargets",
+        "damage"
+      ]
+    },
+    "Totem_Base": {
+      "description": [
+        {
+          "text": "Creates a totem near you that ",
+          "color": "$text"
+        },
+        {
+          "text": "heals",
+          "color": "$heal"
+        },
+        {
+          "text": " all players in ",
+          "color": "$text"
+        },
+        {
+          "text": "range",
+          "color": "$range"
+        },
+        {
+          "text": " per second.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "heal"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "heal"
+      ]
+    },
+    "Totem_Mana_Regen": {
+      "description": [
+        {
+          "text": "Creates a totem near you that regenerates ",
+          "color": "$text"
+        },
+        {
+          "text": "mana",
+          "color": "$manaCost"
+        },
+        {
+          "text": " of all players in ",
+          "color": "$text"
+        },
+        {
+          "text": "range",
+          "color": "$range"
+        },
+        {
+          "text": " per second.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "manaRegen"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "manaRegen"
+      ]
+    },
+    "Totem_Mob_Damage": {
+      "description": [
+        {
+          "text": "Creates a totem near you that does a minimal percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "damage",
+          "color": "$damage"
+        },
+        {
+          "text": " to all mobs in ",
+          "color": "$text"
+        },
+        {
+          "text": "range",
+          "color": "$range"
+        },
+        {
+          "text": " on a ",
+          "color": "$text"
+        },
+        {
+          "text": "delay",
+          "color": "$delay"
+        },
+        {
+          "text": ". These hits applies any on-hit effects you may have, with the exception of Lucky Hit",
+          "color": "$text"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage",
+        "delay"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage",
+        "delay"
+      ]
+    },
+    "Totem_Player_Damage": {
+      "description": [
+        {
+          "text": "Creates a totem near you that increases ",
+          "color": "$text"
+        },
+        {
+          "text": "damage",
+          "color": "$damage"
+        },
+        {
+          "text": " of all players in ",
+          "color": "$text"
+        },
+        {
+          "text": "range",
+          "color": "$range"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ]
+    },
+    "Vein_Miner_Base": {
       "description": [
         {
           "text": "Allows you to mine multiple ",
@@ -1500,7 +1892,7 @@
         "blocks"
       ]
     },
-    "Vein Miner_Durability": {
+    "Vein_Miner_Durability": {
       "description": [
         {
           "text": "Changes Vein Miner to gain a chance of ignoring taking ",
@@ -1537,7 +1929,7 @@
         "unbreaking"
       ]
     },
-    "Vein Miner_Fortune": {
+    "Vein_Miner_Fortune": {
       "description": [
         {
           "text": "Changes Vein Miner to add a level of ",
@@ -1574,7 +1966,7 @@
         "fortune"
       ]
     },
-    "Vein Miner_Void": {
+    "Vein_Miner_Void": {
       "description": [
         {
           "text": "Changes Vein Miner to void any blocks it mines ",
@@ -1608,6 +2000,508 @@
         "level",
         "blocks"
       ]
+    },
+    "Javelin_Base": {
+      "description": [
+        {
+          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "based of your weapon damage and ",
+          "color": "$text"
+        },
+        {
+          "text": "knocks mobs away ",
+          "color": "$knockback"
+        },
+        {
+          "text": "on impact\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "knockback",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "damage",
+        "knockback",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Piercing": {
+      "description": [
+        {
+          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "based of your weapon damage and ",
+          "color": "$text"
+        },
+        {
+          "text": "pierces an amount of mobs ",
+          "color": "$piercing"
+        },
+        {
+          "text": "on impact\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "piercing",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "damage",
+        "piercing",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Scatter": {
+      "description": [
+        {
+          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "based of your weapon damage and ",
+          "color": "$text"
+        },
+        {
+          "text": "scatters an amount of javelins ",
+          "color": "$numberOfJavelins"
+        },
+        {
+          "text": "on impact ",
+          "color": "$text"
+        },
+        {
+          "text": "bouncing several times\n\n",
+          "color": "$numberOfBounces"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "numberOfJavelins",
+        "numberOfBounces",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "damage",
+        "numberOfJavelins",
+        "numberOfBounces",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Sight": {
+      "description": [
+        {
+          "text": "Summon a magical Javelin to hit your foes afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "based of your weapon damage and ",
+          "color": "$text"
+        },
+        {
+          "text": "scans the area in a radius ",
+          "color": "$radius"
+        },
+        {
+          "text": "on impact, revealing chests and mobs\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "radius",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "damage",
+        "radius",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Smite_Base": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite",
+          "color": "$name"
+        },
+        {
+          "text": " will ",
+          "color": "$text"
+        },
+        {
+          "text": " periodically ",
+          "color": "$damageInterval"
+        },
+        {
+          "text": " strike a mob within ",
+          "color": "$text"
+        },
+        {
+          "text": " range ",
+          "color": "$radius"
+        },
+        {
+          "text": " dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": " damage",
+          "color": "$damage"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        
+        "damage",
+        "damageInterval",
+        "radius",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        
+        "damage",
+        "damageInterval",
+        "radius",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Smite_Thunderstorm": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite Thunderstorm",
+          "color": "$name"
+        },
+        {
+          "text": " will",
+          "color": "$text"
+        },
+        {
+          "text": " rain down lightning bolts ",
+          "color": "$damageInterval"
+        },
+        {
+          "text": " striking mobs within a ",
+          "color": "$text"
+        },
+        {
+          "text": " range ",
+          "color": "$radius"
+        },
+        {
+          "text": " dealing a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": " damage",
+          "color": "$damage"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        
+        "damage",
+        "damageInterval",
+        "radius",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        
+        "damage",
+        "damageInterval",
+        "radius",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Smite_Archon": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite Archon",
+          "color": "$name"
+        },
+        {
+          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for ",
+          "color": "$text"
+        },
+        {
+          "text": " a percentage of your damage",
+          "color": "$damage"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        
+        "damage",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        
+        "damage",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Shell_Base": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Shell",
+          "color": "$name"
+        },
+        {
+          "text": " will give you hardened skin, giving you a ",
+          "color": "$text"
+        },
+        {
+          "text": " chance to stun mobs",
+          "color": "$chance"
+        },
+        {
+          "text": " when getting hit.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        
+        "stunChance",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        "stunChance",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ]
+    },
+    "Shell_Porcupine": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Porcupine",
+          "color": "$name"
+        },
+        {
+          "text": " will increase your",
+          "color": "$text"
+        },
+        {
+          "text": " thorns damage",
+          "color": "$damage"
+        },
+        {
+          "text": " and give you ",
+          "color": "$text"
+        },
+        {
+          "text": " durability resistance",
+          "color": "$durabilityWearReduction"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "durabilityWearReduction",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        "damage",
+        "durabilityWearReduction",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ]
+    },
+    "Shell_Quill": {
+      "description": [
+        {
+          "text": "While active, ",
+          "color": "$text"
+        },
+        {
+          "text": "Quill",
+          "color": "$name"
+        },
+        {
+          "text": " will increase your",
+          "color": "$text"
+        },
+        {
+          "text": " thorns damage",
+          "color": "$damage"
+        },
+        {
+          "text": " and",
+          "color": "$text"
+        },
+        {
+          "text": " chain your thorns ",
+          "color": "$chains"
+        },
+        {
+          "text": "to hit additional targets.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "quillCount",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ],
+      "next": [
+        "level",
+        "damage",
+        "quillCount",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ]
     }
+
   }
 }
