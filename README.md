@@ -47,6 +47,10 @@ This is the default world, generated from scratch on first boot
 
 These environment variables can be set at run time to override their defaults.
 
+Set to true to create the server the first time, then disable if you need to customize config files or mods. 
+Re-enable to update to a newer version after switching docker images, but make sure to back up and config/mod edits
+> `NUCLEAR_UPDATE`
+
 Java virtual machine memory - 6 Gigabytes maximum, increase by ~2G per player
 > `JVM_OPTS` "-Xmx6g"
 

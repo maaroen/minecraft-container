@@ -11,10 +11,14 @@ else
 	exit 9
 fi
 
-# Clean up previous deployments
-rm -rf ./config  ./defaultconfigs ./mods ./packmenu ./patchouli_books  ./scripts
-# Install the server files of the current update
-cp -rf /server/* /data/
+# If you want to clean install all config files and mods in your server, specify NUCLEAR_UPDATE=TRUE
+# Please backup your config files before setting this
+if [[ -n "$NUCLEAR_UPDATE" ]]; then
+    # Clean up previous deployments
+    rm -rf ./config  ./defaultconfigs ./mods ./packmenu ./patchouli_books  ./scripts
+    # Install the server files of the current update
+    cp -rf /server/* /data/
+fi
 
 if [[ -n "$MOTD" ]]; then
     sed -i "/motd\s*=/ c motd=$MOTD" server.properties
