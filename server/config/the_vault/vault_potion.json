@@ -1,0 +1,36 @@
+{
+  "potions": {
+    "potion": {
+      "charges": 6,
+      "modifiers": 1,
+      "timeRecharge": 6000,
+      "mobRecharge": 150,
+      "effectDuration": 400,
+      "healing": 6
+    },
+    "mixture": {
+      "charges": 6,
+      "modifiers": 2,
+      "timeRecharge": 6000,
+      "mobRecharge": 150,
+      "effectDuration": 400,
+      "healing": 8
+    },
+    "vial": {
+      "charges": 6,
+      "modifiers": 0,
+      "timeRecharge": 6000,
+      "mobRecharge": 150,
+      "effectDuration": 400,
+      "healing": 4
+    },
+    "brew": {
+      "charges": 6,
+      "modifiers": 3,
+      "timeRecharge": 6000,
+      "mobRecharge": 150,
+      "effectDuration": 400,
+      "healing": 10
+    }
+  }
+}

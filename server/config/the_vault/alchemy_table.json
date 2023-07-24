@@ -41,24 +41,6 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_soul_chance_t2",
-        "modifierIdentifier": "the_vault:crafted_soul_chance",
-        "modifierTier": 2,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:poisonous_mushroom",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 4,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
 
       {
         "workbenchCraftIdentifier": "the_vault:crafted_knockback_resistance_t0",
@@ -115,8 +97,6 @@
         ]
       },
 
-
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_mana_regen_t0",
         "modifierIdentifier": "the_vault:crafted_mana_regen",
@@ -156,61 +136,6 @@
       {
         "workbenchCraftIdentifier": "the_vault:crafted_mana_regen_t2",
         "modifierIdentifier": "the_vault:crafted_mana_regen",
-        "modifierTier": 2,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:poisonous_mushroom",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 4,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t0",
-        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
-        "modifierTier": 0,
-        "unlockCategory": "LEVEL",
-        "craftingCost": [
-          {
-            "AMOUNT": 4,
-            "ITEM": "the_vault:poisonous_mushroom",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 1,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t1",
-        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
-        "modifierTier": 1,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:poisonous_mushroom",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t2",
-        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
         "modifierTier": 2,
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
@@ -321,6 +246,61 @@
       {
         "workbenchCraftIdentifier": "the_vault:crafted_item_rarity_t2",
         "modifierIdentifier": "the_vault:crafted_item_rarity",
+        "modifierTier": 2,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:poisonous_mushroom",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 4,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t0",
+        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
+        "modifierTier": 0,
+        "unlockCategory": "LEVEL",
+        "craftingCost": [
+          {
+            "AMOUNT": 4,
+            "ITEM": "the_vault:poisonous_mushroom",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 1,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t1",
+        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
+        "modifierTier": 1,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:poisonous_mushroom",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 2,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t2",
+        "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
         "modifierTier": 2,
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
@@ -463,6 +443,7 @@
           }
         ]
       },
+
       {
         "workbenchCraftIdentifier": "the_vault:crafted_fire_immunity_t0",
         "modifierIdentifier": "the_vault:crafted_fire_immunity",
@@ -518,6 +499,7 @@
           }
         ]
       },
+
       {
         "workbenchCraftIdentifier": "the_vault:crafted_effect_slowfalling_t0",
         "modifierIdentifier": "the_vault:crafted_effect_falling",
@@ -536,6 +518,7 @@
           }
         ]
       },
+
       {
         "workbenchCraftIdentifier": "the_vault:crafted_effect_regen_t0",
         "modifierIdentifier": "the_vault:crafted_effect_regeneration",
@@ -554,12 +537,6 @@
           }
         ]
       }
-
-      
-
-
-
-
     ]
   }
 }

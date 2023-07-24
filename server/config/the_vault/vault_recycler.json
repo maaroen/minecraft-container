@@ -1,10 +1,10 @@
 {
   "processingTickTime": 20,
   "additionalOutputRarityChances": {
-    "SCRAPPY": 0.3,
-    "COMMON": 0.3,
-    "RARE": 0.6,
-    "EPIC": 0.8,
+    "SCRAPPY": 0.0,
+    "COMMON": 0.25,
+    "RARE": 0.5,
+    "EPIC": 0.75,
     "OMEGA": 1.0
   },
   "gearRecyclingOutput": {
@@ -19,13 +19,13 @@
     "extraOutput1": {
       "chance": 0.2,
       "stack": {
-        "item": "the_vault:wild_focus"
+        "item": "minecraft:netherite_scrap"
       },
       "minCount": 1,
-      "maxCount": 2
+      "maxCount": 1
     },
     "extraOutput2": {
-      "chance": 0.1,
+      "chance": 0.0,
       "stack": {
         "item": "the_vault:faceted_focus"
       },
@@ -39,19 +39,19 @@
       "stack": {
         "item": "the_vault:magnetite"
       },
-      "minCount": 2,
+      "minCount": 4,
       "maxCount": 8
     },
     "extraOutput1": {
       "chance": 0.2,
       "stack": {
-        "item": "the_vault:wild_focus"
+        "item": "the_vault:chromatic_iron_nugget"
       },
       "minCount": 1,
       "maxCount": 2
     },
     "extraOutput2": {
-      "chance": 0.1,
+      "chance": 0.0,
       "stack": {
         "item": "the_vault:faceted_focus"
       },
@@ -69,17 +69,17 @@
       "maxCount": 1
     },
     "extraOutput1": {
-      "chance": 0.2,
+      "chance": 0.0,
       "stack": {
-        "item": "the_vault:vault_scrap"
+        "item": "minecraft:air"
       },
       "minCount": 1,
       "maxCount": 3
     },
     "extraOutput2": {
-      "chance": 0.01,
+      "chance": 0.0,
       "stack": {
-        "item": "the_vault:gem_pog"
+        "item": "minecraft:air"
       },
       "minCount": 1,
       "maxCount": 1

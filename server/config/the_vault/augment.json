@@ -89,6 +89,12 @@
     "the_vault:classic_vault_mushroom": {
       "the_vault:augment{theme:\"the_vault:classic_vault_mushroom\"}": 5
     },
+    "the_vault:classic_vault_fairy_ring": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_fairy_ring\"}": 5
+    },
+    "the_vault:classic_vault_poison": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_poison\"}": 5
+    },
     "the_vault:classic_vault_haunted": {
       "the_vault:augment{theme:\"the_vault:classic_vault_haunted\"}": 5
     },
@@ -108,6 +114,9 @@
     "the_vault:classic_vault_easter_pastel": {
       "the_vault:augment{theme:\"the_vault:classic_vault_easter_egg\"}": 3,
       "the_vault:augment{theme:\"the_vault:classic_vault_easter_pastel\"}": 5
+    },
+    "the_vault:classic_vault_blood_moon": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_blood_moon\"}": 5
     }
   }
 }

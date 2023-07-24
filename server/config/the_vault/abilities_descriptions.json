@@ -34,11 +34,11 @@
     "Dash_Damage": {
       "description": [
         {
-          "text": "Turns your dashes into bullets, making you deal a ",
+          "text": "Turns your dashes into bullets, making you deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "percentage of your damage",
+          "text": "physical damage",
           "color": "$damage"
         },
         {
@@ -833,7 +833,7 @@
     "Mana_Shield_Base": {
       "description": [
         {
-          "text": "Gives you a mana shield that ",
+          "text": "Gives you a shield that ",
           "color": "$text"
         },
         {
@@ -859,14 +859,12 @@
       ],
       "current": [
         "cooldown",
-        "manaCostPerSecond",
         "absorb",
         "manaPerDamage"
       ],
       "next": [
         "level",
         "cooldown",
-        "manaCostPerSecond",
         "absorb",
         "manaPerDamage"
       ]
@@ -919,19 +917,20 @@
         }
       ],
       "current": [
-        "cooldown",
-        "manaCostPerSecond",
+        "damage",
+        "manaPerDamage",
         "absorb",
-        "radius",
-        "damage"
+        "cooldown",
+        "radius"
+
       ],
       "next": [
         "level",
-        "cooldown",
-        "manaCostPerSecond",
+        "damage",
+        "manaPerDamage",
         "absorb",
-        "radius",
-        "damage"
+        "cooldown",
+        "radius"
       ]
     },
     "Mega_Jump_Base": {
@@ -1024,12 +1023,12 @@
     "Nova_Base": {
       "description": [
         {
-          "text": "Deal a ",
+          "text": "Deal a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "percentage of your damage ",
-          "color": "$damage"
+          "text": "ability power ",
+          "color": "$ability_power"
         },
         {
           "text": "in a ",
@@ -1040,11 +1039,19 @@
           "color": "$radius"
         },
         {
-          "text": " around yourself!\n\n",
+          "text": " around yourself.\n",
           "color": "$text"
         },
         {
-          "text": "\u2734 Cast Ability ",
+          "text": "Nova's ",
+          "color": "$name"
+        },
+        {
+          "text": "damage decreases the further away the target is hit in its radius.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -1052,25 +1059,25 @@
         "cooldown",
         "manaCost",
         "radius",
-        "damage"
+        "ability_power"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCost",
         "radius",
-        "damage"
+        "ability_power"
       ]
     },
     "Nova_Dot": {
       "description": [
         {
-          "text": "Changes Nova to instead inflict a ",
+          "text": "Changes Nova to instead inflict a percentage of your ",
           "color": "$text"
         },
         {
-          "text": "percentage of your damage ",
-          "color": "$damage"
+          "text": "ability power ",
+          "color": "$ability_power"
         },
         {
           "text": "through ",
@@ -1101,7 +1108,7 @@
         "cooldown",
         "manaCost",
         "radius",
-        "damage",
+        "ability_power",
         "duration"
       ],
       "next": [
@@ -1109,7 +1116,7 @@
         "cooldown",
         "manaCost",
         "radius",
-        "damage",
+        "ability_power",
         "duration"
       ]
     },
@@ -1169,7 +1176,7 @@
           "color": "$text"
         },
         {
-          "text": "damage",
+          "text": "physical damage",
           "color": "$damage"
         },
         {
@@ -1372,15 +1379,19 @@
           "color": "$text"
         },
         {
-          "text": "active",
+          "text": "active ",
           "color": "$duration"
         },
         {
-          "text": " dealing damage",
-          "color": "$damage"
+          "text": "dealing damage based off ",
+          "color": "$text"
         },
         {
-          "text": " to nearby mobs in a radius\nThe damage based is based off the fall distance and multiplied by your weapon damage",
+          "text": "ability power",
+          "color": "$ability_power"
+        },
+        {
+          "text": " to nearby mobs in a radius\nThe damage based is based off the fall distance and multiplied by your ability power",
           "color": "$text"
         },
         {
@@ -1396,7 +1407,7 @@
         "cooldown",
         "manaCost",
         "damageReduction",
-        "damage",
+        "ability_power",
         "duration"
       ],
       "next": [
@@ -1404,7 +1415,7 @@
         "cooldown",
         "manaCost",
         "damageReduction",
-        "damage",
+        "ability_power",
         "duration"
       ]
     },
@@ -1419,7 +1430,7 @@
           "color": "$eternals"
         },
         {
-          "text": "! This ability requires you to have at least one alive eternal in a Cryo Chamber, or it will do nothing.\n\n",
+          "text": "! This ability requires you to have at least one eternal alive on an Eternal Pedestal, or it will do nothing.\n\n",
           "color": "$text"
         },
         {
@@ -1469,7 +1480,7 @@
         "radius",
         "cooldown",
         "manaCostPerSecond"
-        
+
       ],
       "next": [
         "level",
@@ -1477,13 +1488,57 @@
         "radius",
         "cooldown",
         "manaCostPerSecond"
-        
+
       ]
     },
     "Empower_Ice_Armor": {
       "description": [
         {
-          "text": "Gives you an aura of frost ",
+          "text": "Encase yourself in a barrier of frost, ",
+          "color": "$text"
+        },
+        {
+          "text": "chilling",
+          "color": "$chilled"
+        },
+        {
+          "text": " any mob that hits you for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": " while active\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "chilled",
+        "duration",
+        "additionalManaPerHit",
+        "manaCostPerSecond",
+        "cooldown"
+
+
+      ],
+      "next": [
+        "chilled",
+        "duration",
+        "additionalManaPerHit",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Empower_Slowness_Aura": {
+      "description": [
+        {
+          "text": "Gives you an aura of entropy ",
           "color": "$text"
         },
         {
@@ -1509,15 +1564,15 @@
       ],
       "current": [
         "radius",
-        "cooldown",
-        "manaCostPerSecond"
-        
+        "manaCostPerSecond",
+        "cooldown"
+
+
       ],
       "next": [
-        "level",
         "radius",
-        "cooldown",
-        "manaCostPerSecond"
+        "manaCostPerSecond",
+        "cooldown"
       ]
     },
     "Taunt_Base": {
@@ -1531,15 +1586,15 @@
           "color": "$radius"
         },
         {
-          "text": ", angering them towards you, ",
+          "text": ", angering them towards you, and making them ",
           "color": "$text"
         },
         {
-          "text": "increasing your damage",
-          "color": "$damage"
+          "text": "vulnerable",
+          "color": "$vulnerable"
         },
         {
-          "text": " against them for a ",
+          "text": " for a ",
           "color": "$text"
         },
         {
@@ -1551,7 +1606,23 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 Cast Ability ",
+          "text": "Each ",
+          "color": "$text"
+        },
+        {
+          "text": "level of Vulnerability",
+          "color": "$vulnerable"
+        },
+        {
+          "text": " increases damage taken to that mob by ",
+          "color": "$text"
+        },
+        {
+          "text": "10%",
+          "color": "$vulnerable"
+        },
+        {
+          "text": ".\n\n\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
@@ -1560,7 +1631,7 @@
         "manaCost",
         "radius",
         "duration",
-        "damageIncrease"
+        "vulnerable"
       ],
       "next": [
         "level",
@@ -1568,13 +1639,13 @@
         "manaCost",
         "radius",
         "duration",
-        "damageIncrease"
+        "vulnerable"
       ]
     },
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Instead of taunting, you now fear the mobs around you in a ",
+          "text": "Instead of taunting mobs around you, they are now feared by you in a ",
           "color": "$text"
         },
         {
@@ -1646,7 +1717,7 @@
         },
         {
           "text": "percentage of your damage",
-          "color": "$damage"
+          "color": "$ability_power"
         },
         {
           "text": " to their targets",
@@ -1667,7 +1738,7 @@
         "radius",
         "duration",
         "maxTargets",
-        "damage"
+        "ability_power"
       ],
       "next": [
         "level",
@@ -1676,7 +1747,7 @@
         "radius",
         "duration",
         "maxTargets",
-        "damage"
+        "ability_power"
       ]
     },
     "Totem_Base": {
@@ -1690,12 +1761,12 @@
           "color": "$heal"
         },
         {
-          "text": " all players in ",
+          "text": " all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " per second.\n\n",
@@ -1733,12 +1804,12 @@
           "color": "$manaCost"
         },
         {
-          "text": " of all players in ",
+          "text": " of all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " per second.\n\n",
@@ -1772,16 +1843,16 @@
           "color": "$text"
         },
         {
-          "text": "damage",
-          "color": "$damage"
+          "text": "ability power",
+          "color": "$ability_power"
         },
         {
-          "text": " to all mobs in ",
+          "text": " to all mobs in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " on a ",
@@ -1809,7 +1880,7 @@
         "manaCost",
         "duration",
         "radius",
-        "damage",
+        "ability_power",
         "delay"
       ],
       "next": [
@@ -1818,7 +1889,7 @@
         "manaCost",
         "duration",
         "radius",
-        "damage",
+        "ability_power",
         "delay"
       ]
     },
@@ -1829,16 +1900,16 @@
           "color": "$text"
         },
         {
-          "text": "damage",
+          "text": "physical damage",
           "color": "$damage"
         },
         {
-          "text": " of all players in ",
+          "text": " of all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": ".\n\n",
@@ -2222,11 +2293,11 @@
           "color": "$text"
         },
         {
-          "text": " damage",
-          "color": "$damage"
+          "text": "ability power",
+          "color": "$ability_power"
         },
         {
-          "text": ".",
+          "text": ", and transfering any on-hit modifiers to the target.",
           "color": "$text"
         },
         {
@@ -2235,8 +2306,8 @@
         }
       ],
       "current": [
-        
-        "damage",
+
+        "ability_power",
         "damageInterval",
         "radius",
         "additionalManaPerBolt",
@@ -2245,8 +2316,8 @@
       ],
       "next": [
         "level",
-        
-        "damage",
+
+        "ability_power",
         "damageInterval",
         "radius",
         "additionalManaPerBolt",
@@ -2285,8 +2356,8 @@
           "color": "$text"
         },
         {
-          "text": " damage",
-          "color": "$damage"
+          "text": "ability power",
+          "color": "$ability_power"
         },
         {
           "text": ".",
@@ -2298,8 +2369,8 @@
         }
       ],
       "current": [
-        
-        "damage",
+
+        "ability_power",
         "damageInterval",
         "radius",
         "manaCostPerSecond",
@@ -2307,8 +2378,8 @@
       ],
       "next": [
         "level",
-        
-        "damage",
+
+        "ability_power",
         "damageInterval",
         "radius",
         "manaCostPerSecond",
@@ -2326,15 +2397,23 @@
           "color": "$name"
         },
         {
-          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for ",
+          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a percentage of your ",
           "color": "$text"
         },
         {
-          "text": " a percentage of your damage",
-          "color": "$damage"
+          "text": "ability power",
+          "color": "$ability_power"
         },
         {
-          "text": ".",
+          "text": " and gives you ",
+          "color": "$text"
+        },
+        {
+          "text": "durability resistance",
+          "color": "$durabilityWearReduction"
+        },
+        {
+          "text": ". ",
           "color": "$text"
         },
         {
@@ -2343,18 +2422,20 @@
         }
       ],
       "current": [
-        
-        "damage",
+
+        "ability_power",
         "additionalManaPerBolt",
         "manaCostPerSecond",
+        "durabilityWearReduction",
         "cooldown"
       ],
       "next": [
         "level",
-        
-        "damage",
+
+        "ability_power",
         "additionalManaPerBolt",
         "manaCostPerSecond",
+        "durabilityWearReduction",
         "cooldown"
       ]
     },
@@ -2386,7 +2467,7 @@
         }
       ],
       "current": [
-        
+
         "stunChance",
         "manaCostPerSecond",
         "additionalManaPerHit",
@@ -2501,7 +2582,452 @@
         "additionalManaPerHit",
         "cooldown"
       ]
-    }
+    },
+    "Fireball_Base": {
+      "description": [
+        {
+          "text": "Summon a magical Fireball to hit your foes afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "based of your ability power.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "radius",
+        "cooldown",
+        "manaCost"
 
+      ],
+      "next": [
+        "level",
+        "ability_power",
+        "radius",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Fireball_Volley": {
+      "description": [
+        {
+          "text": "Summon a magical bouncing Fireball that ",
+          "color": "$text"
+        },
+        {
+          "text": "scorches ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "mobs in its path and deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "based of your ability power.\nAfter a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": " of time, it explodes in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " dealing its full damage.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "radius",
+        "duration",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "ability_power",
+        "radius",
+        "duration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Fireball_Fireshot": {
+      "description": [
+        {
+          "text": "Summon a small magical fireshot to hit mobs from afar\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "based of your ability power.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "ability_power",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Storm_Arrow_Base": {
+      "description": [
+        {
+          "text": "Shoot an arrow that creates a storm above upon impact\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Deals an amount of ",
+          "color": "$text"
+        },
+        {
+          "text": "damage ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "based of your ability power. The storm cloud stays for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": " and will ",
+          "color": "$text"
+        },
+        {
+          "text": "strike",
+          "color": "$duration"
+        },
+        {
+          "text": " every so often.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "radius",
+        "duration",
+        "stormInterval",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "ability_power",
+        "radius",
+        "duration",
+        "stormInterval",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Storm_Arrow_Blizzard": {
+      "description": [
+        {
+          "text": "Shoot an arrow that creates an ice storm above upon impact\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "Each ice shard will freeze mobs on hit for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration.",
+          "color": "$slowDuration"
+        },
+        {
+          "text": " Also has a ",
+          "color": "$text"
+        },
+        {
+          "text": "chance",
+          "color": "$frostbiteChance"
+        },
+        {
+          "text": " to frostbite the mob for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": " every so often.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "duration",
+        "stormInterval",
+        "slowDuration",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "radius",
+        "duration",
+        "stormInterval",
+        "slowDuration",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Base": {
+      "description": [
+        {
+          "text": "Drain the essence of mobs around you, gathering ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle Cry stacks ",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "and release an ",
+          "color": "$text"
+        },
+        {
+          "text": "amount ",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "of stacks, giving you ",
+          "color": "$text"
+        },
+        {
+          "text": "bonus attack damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time ",
+          "color": "$duration"
+        },
+        {
+          "text": "if not used.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "duration",
+        "attackDamagePerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "radius",
+        "duration",
+        "attackDamagePerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Spectral_Strike": {
+      "description": [
+        {
+          "text": "Drain the essence of mobs around you, gathering ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle Cry stacks ",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "and release an ",
+          "color": "$text"
+        },
+        {
+          "text": "amount ",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "of stacks, adding ",
+          "color": "$text"
+        },
+        {
+          "text": "ability power ",
+          "color": "$abilityPowerPerStack"
+        },
+        {
+          "text": "as damage, on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time ",
+          "color": "$duration"
+        },
+        {
+          "text": "if not used.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "duration",
+        "abilityPowerPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "radius",
+        "duration",
+        "abilityPowerPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Lucky_Strike": {
+      "description": [
+        {
+          "text": "Drain the essence of mobs around you, gathering ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle Cry stacks ",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "and release an ",
+          "color": "$text"
+        },
+        {
+          "text": "amount ",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "of stacks, giving you ",
+          "color": "$text"
+        },
+        {
+          "text": "bonus Lucky Hit chance ",
+          "color": "$luckyHit"
+        },
+        {
+          "text": "on your next direct on-hit attack.\nThe stacks will fizzle after a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time ",
+          "color": "$duration"
+        },
+        {
+          "text": "if not used.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "duration",
+        "luckyHitPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "level",
+        "radius",
+        "duration",
+        "luckyHitPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    }
   }
 }

@@ -222,36 +222,6 @@
       ]
     },
     {
-      "id": "the_vault:omega_digsite",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:omega_digsite\", data:{color:7012096,model:6}, display:{Name:'{\"text\":\"Digsite Inscription\",\"color\":\"#6AFF00\"}' }}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 5,
-          "ITEM": "the_vault:wooden_chest_scroll",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 32,
-          "ITEM": "the_vault:inscription_piece",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:gem_echo",
-          "NBT": "{}"
-        }
-      ]
-    },
-    {
       "id": "the_vault:vendor",
       "output": {
         "AMOUNT": 1,

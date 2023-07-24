@@ -25,10 +25,8 @@
     },
 
     {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:enhancement_altar",
-      "title": "Enhancement Altar",
-      "text": "Enhancements $(l)improve$() an $(l)attribute$() of an Ability strongly.$(br2)They can be attached to the player's Vault Helmet by finding an $(l)Enhancement Altar$() inside a $(l:the_vault/layout#dungeons)$(t:Dungeons)dungeon$() in any Vault.$(br2)By $(l)completing$() a small $(l)task$(), a $(l)random$() enhancement is bound to the Vault Helmet."
+      "type": "patchouli:text",
+      "text": ""
     }
 
   ]

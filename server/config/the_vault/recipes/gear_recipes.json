@@ -253,6 +253,42 @@
       ]
     },
     {
+      "proficiencyType": "WAND",
+      "id": "the_vault:wand",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:wand",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
       "proficiencyType": "IDOL",
       "id": "the_vault:idol_benevolent",
       "output": {

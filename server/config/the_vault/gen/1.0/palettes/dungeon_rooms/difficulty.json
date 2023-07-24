@@ -1,0 +1,153 @@
+{
+    "tile_processors": [
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Normal }",
+            "output": {
+                "the_vault:placeholder{ ItemQuantity:0.0f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Hard }",
+            "output": {
+                "the_vault:placeholder{ ItemQuantity:0.5f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Challenging }",
+            "output": {
+                "the_vault:placeholder{ ItemQuantity:1.0f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Extreme }",
+            "output": {
+                "the_vault:placeholder{ ItemQuantity:2.0f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Impossible }",
+            "output": {
+                "the_vault:placeholder{ ItemQuantity:3.0f }": 1
+            }
+        },
+
+
+
+
+
+
+
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Normal }",
+            "output": {
+                "the_vault:placeholder{ ItemRarity:0.0f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Hard }",
+            "output": {
+                "the_vault:placeholder{ ItemRarity:0.25f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Challenging }",
+            "output": {
+                "the_vault:placeholder{ ItemRarity:0.5f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Extreme }",
+            "output": {
+                "the_vault:placeholder{ ItemRarity:1.0f }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{ Difficulty: Impossible }",
+            "output": {
+                "the_vault:placeholder{ ItemRarity:1.5f }": 1
+            }
+        },
+
+
+
+
+
+
+
+
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Hard }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:0.5, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Challenging }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:1.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Extreme }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:2.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Impossible }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:3.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Hard }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:0.5, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Challenging }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:1.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Extreme }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:2.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Impossible }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:3.0, Operation:2}}}": 1
+            }
+        }
+    ]
+}

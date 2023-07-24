@@ -1,0 +1,184 @@
+{
+  "defaultChampionChance": 0.01,
+  "entityChampionChance": {
+    "@the_vault:dungeon": 0.02,
+    "@the_vault:tank": 0.02,
+    "@the_vault:horde": 0.0
+  },
+  "defaultAttributeOverrides": [
+    {
+      "NAME": "minecraft:generic.max_health",
+      "VALUE": 6.0,
+      "OPERATOR": "multiply"
+    },
+    {
+      "NAME": "minecraft:generic.attack_damage",
+      "VALUE": 2.0,
+      "OPERATOR": "multiply"
+    },
+    {
+      "NAME": "the_vault:generic.crit_chance",
+      "VALUE": 0.3,
+      "OPERATOR": "set"
+    },
+    {
+      "NAME": "minecraft:generic.knockback_resistance",
+      "VALUE": 0.8,
+      "OPERATOR": "set"
+    }
+  ],
+  "entityAttributeOverrides": {
+    "@the_vault:horde": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 10.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ],
+    "@the_vault:tank": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 3.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ],
+    "@the_vault:dungeon": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 3.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ]
+  },
+  "entityAffixesData": {
+    "@the_vault:mobs": [
+      {
+        "value": "{amplifier:0,chance:0.3f,duration:60,mob_effect:\"minecraft:poison\",name:\"Poisonous\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,chance:0.3f,duration:60,mob_effect:\"minecraft:mining_fatigue\",name:\"Fatiguing Strike\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,chance:0.3f,duration:80,mob_effect:\"the_vault:freeze\",name:\"Freezing\",type:\"on_hit_apply_potion\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:weakness\",name:\"Weakening Strike\",range:4,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:mining_fatigue\",name:\"Fatiguing\",range:4,target:\"player\",type:\"potion_aura\"}",
+        "weight": 1.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:resistance\",name:\"Reinforcing\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:speed\",name:\"Accelerating\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:strength\",name:\"Strengthening\",range:3,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 1.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"alexsmobs:knockback_resistance\",name:\"Sturdy\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"cofh_core:panacea\",name:\"Immune\",range:3,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 1.0
+      },
+      {
+        "value": "{leech_percentage:0.5f,name:\"Leeching\",type:\"leech_on_hit\"}",
+        "weight": 2.0
+      }
+    ],
+    "@the_vault:dungeon": [
+      {
+        "value": "{amplifier:0,chance:0.3f,duration:60,mob_effect:\"minecraft:poison\",name:\"Poisonous\",type:\"on_hit_apply_potion\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:1,chance:0.3f,duration:60,mob_effect:\"minecraft:mining_fatigue\",name:\"Fatiguing Strike\",type:\"on_hit_apply_potion\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:1,chance:0.3f,duration:80,mob_effect:\"the_vault:freeze\",name:\"Freezing\",type:\"on_hit_apply_potion\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:weakness\",name:\"Weakening Strike\",range:4,target:\"player\",type:\"potion_aura\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:mining_fatigue\",name:\"Fatiguing\",range:3,target:\"player\",type:\"potion_aura\"}",
+        "weight": 1.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:weakness\",name:\"Weakening\",range:3,target:\"player\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"minecraft:resistance\",name:\"Reinforcing\",range:3,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 3.0
+      },
+      {
+        "value": "{amplifier:0,duration:20,mob_effect:\"cofh_core:panacea\",name:\"Immune\",range:3,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 1.0
+      },
+      {
+        "value": "{leech_percentage:0.5f,name:\"Leeching\",type:\"leech_on_hit\"}",
+        "weight": 1.0
+      }
+    ]
+  }
+}

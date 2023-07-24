@@ -64,7 +64,8 @@
     "the_vault:treasure_chest": {
       "display": "Treasure Chests",
       "lootTableKeys": {
-        "the_vault:treasure_chest_lvl0": {"level": 0}
+        "the_vault:treasure_chest_lvl0": {"level": 0},
+        "the_vault:treasure_chest_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate": {

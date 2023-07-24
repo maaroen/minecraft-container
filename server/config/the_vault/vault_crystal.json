@@ -287,6 +287,10 @@
 		      {
             "value": "the_vault:classic_vault_easter_pastel",
             "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_blood_moon",
+            "weight": 2
           }
         ]
       },
@@ -412,6 +416,10 @@
 		      {
             "value": "the_vault:classic_vault_easter_pastel",
             "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_blood_moon",
+            "weight": 4
           }
         ]
       }
@@ -998,11 +1006,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.75,
+            "objective_probability": 0.8,
             "target": {
               "type": "uniform",
-              "min": 2,
-              "max": 2
+              "min": 3,
+              "max": 5
             }
           },
           "weight": 8
@@ -1015,7 +1023,7 @@
         {
           "value": {
             "type": "elixir",
-            "objective_probability": 0.4
+            "objective_probability": 0.5
           },
           "weight": 4
         },
@@ -1025,8 +1033,8 @@
             "objective_probability": 0.75,
             "target": {
               "type": "uniform",
-              "min": 2,
-              "max": 3
+              "min": 4,
+              "max": 7
             }
           },
           "weight": 4
@@ -1046,11 +1054,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.5,
+            "objective_probability": 0.6,
             "target": {
               "type": "uniform",
-              "min": 2,
-              "max": 3
+              "min": 6,
+              "max": 9
             }
           },
           "weight": 4
@@ -1058,7 +1066,7 @@
         {
           "value": {
             "type": "elixir",
-            "objective_probability": 0.3
+            "objective_probability": 0.5
           },
           "weight": 4
         }
@@ -1074,7 +1082,7 @@
             "target": {
               "type": "uniform",
               "min": 3,
-              "max": 6
+              "max": 5
             },
             "wave": {
               "type": "uniform",
@@ -1094,11 +1102,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.25,
+            "objective_probability": 0.7,
             "target": {
               "type": "uniform",
-              "min": 2,
-              "max": 4
+              "min": 7,
+              "max": 10
             }
           },
           "weight": 4
@@ -1106,7 +1114,7 @@
         {
           "value": {
             "type": "elixir",
-            "objective_probability": 0.15
+            "objective_probability": 0.3
           },
           "weight": 4
         }
@@ -1122,12 +1130,12 @@
             "target": {
               "type": "uniform",
               "min": 3,
-              "max": 6
+              "max": 5
             },
             "wave": {
               "type": "uniform",
               "min": 5,
-              "max": 10
+              "max": 8
             }
           },
           "weight": 4
@@ -1142,11 +1150,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.2,
+            "objective_probability": 0.6,
             "target": {
               "type": "uniform",
-              "min": 2,
-              "max": 4
+              "min": 8,
+              "max": 13
             }
           },
           "weight": 4
@@ -1154,7 +1162,55 @@
         {
           "value": {
             "type": "elixir",
-            "objective_probability": 0.15
+            "objective_probability": 0.3
+          },
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "level": 90,
+      "pool": [
+        {
+          "value": {
+            "type": "boss",
+            "objective_probability": 0.25,
+            "target": {
+              "type": "uniform",
+              "min": 4,
+              "max": 5
+            },
+            "wave": {
+              "type": "uniform",
+              "min": 6,
+              "max": 8
+            }
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "scavenger",
+            "objective_probability": 0.75
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "monolith",
+            "objective_probability": 0.6,
+            "target": {
+              "type": "uniform",
+              "min": 10,
+              "max": 15
+            }
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "elixir",
+            "objective_probability": 0.3
           },
           "weight": 4
         }
@@ -1277,11 +1333,11 @@
           "target": {
             "type": "uniform",
             "min": 3,
-            "max": 6
+            "max": 5
           },
           "wave": {
             "type": "uniform",
-            "min": 4,
+            "min": 5,
             "max": 8
           }
         },
@@ -1319,12 +1375,54 @@
           "target": {
             "type": "uniform",
             "min": 3,
-            "max": 6
+            "max": 5
           },
           "wave": {
             "type": "uniform",
             "min": 5,
-            "max": 10
+            "max": 8
+          }
+        },
+        "layout": {
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
+        }
+      },
+      {
+        "level": 90,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "boss",
+          "objective_probability": 0.25,
+          "target": {
+            "type": "uniform",
+            "min": 4,
+            "max": 5
+          },
+          "wave": {
+            "type": "uniform",
+            "min": 6,
+            "max": 8
           }
         },
         "layout": {
@@ -1369,7 +1467,7 @@
         ],
         "objective": {
           "type": "elixir",
-          "objective_probability": 0.3
+          "objective_probability": 0.5
         }
       },
       {
@@ -1379,7 +1477,7 @@
         ],
         "objective": {
           "type": "elixir",
-          "objective_probability": 0.15
+          "objective_probability": 0.3
         }
       }
     ],

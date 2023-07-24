@@ -29,15 +29,6 @@
       "color": 65535,
       "weight": 0
     },
-    "Thorns": {
-      "tags": [
-        "focusThornsChance",
-        "focusThornsDamage"
-      ],
-      "display": "Thorns",
-      "color": 16747256,
-      "weight": 0
-    },
     "Looting": {
       "tags": [
         "ModItemRarity",
@@ -277,28 +268,12 @@
       "color": 1681124,
       "weight": 10
     },
-    "CritHitMitigation": {
-      "tags": [
-        "focusCritHitMitigation"
-      ],
-      "display": "Crit Hit Mitigation",
-      "color": 7441919,
-      "weight": 10
-    },
     "Block": {
       "tags": [
         "focusBlock"
       ],
       "display": "Block Chance",
       "color": 16109454,
-      "weight": 10
-    },
-    "ThornsChance": {
-      "tags": [
-        "focusThornsChance"
-      ],
-      "display": "Thorns Chance",
-      "color": 16761035,
       "weight": 10
     },
     "ThornsDamage": {
@@ -363,6 +338,14 @@
       ],
       "display": "Immunity",
       "color": 15589836,
+      "weight": 10
+    },
+    "AOE": {
+      "tags": [
+        "focusEffectRadius"
+      ],
+      "display": "Area Of Effect",
+      "color": 15319925,
       "weight": 10
     },
     "Reach": {

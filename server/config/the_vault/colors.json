@@ -34,7 +34,7 @@
       "radius": "#33ff6d",
       "range": "#0D7A39",
       "resistance": "#09bfb8",
-      "slowness": "#23d2bb",
+      "slowness": "#d1d0ae",
       "text": "#192022",
       "unbreaking": "#dcc4f0"
     },
@@ -57,7 +57,16 @@
       "miningspeed": "#47b8f5",
       "quillCount": "#cc3639",
       "ethereal": "#1bde8e",
-      "affinity": "#b2f44b"
+      "affinity": "#b2f44b",
+      "common": "#ffffff",
+      "rare": "#ffff55",
+      "epic": "#ff55ff",
+      "omega": "#55ff55",
+      "legendary": "#f5901d",
+      "chilling": "#2FE1FA",
+      "chilled": "#2FE1FA",
+      "maxStacks": "#36ffa7",
+      "stacksUsedPerHit": "#6b1c00"
     }
   }
 }

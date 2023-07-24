@@ -269,7 +269,7 @@
 	"Parrot Eggs" = true
 	"Endermosh Music Disc" = true
 	"Color Runes" = true
-	Camera = true
+	Camera = false
 	"Bundle Recipe" = true
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
@@ -403,7 +403,7 @@
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
-	"Better Elytra Rocket" = true
+	"Better Elytra Rocket" = false
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true

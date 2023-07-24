@@ -234,7 +234,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 9
+              "weight": 7
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 7
             },
             {
               "value": {
@@ -546,7 +557,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 10
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 8
             },
             {
               "value": {
@@ -898,7 +920,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 7
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 6
             },
             {
               "value": {
@@ -1245,6 +1278,17 @@
               "value": {
                 "stack": {
                   "item": "the_vault:shield",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
                 },
                 "minCount": 1,
@@ -1642,6 +1686,17 @@
             {
               "value": {
                 "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:magnet",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
                 },
@@ -2000,6 +2055,17 @@
               "value": {
                 "stack": {
                   "item": "the_vault:shield",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
                 },
                 "minCount": 1,
@@ -2415,7 +2481,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 10
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 8
             },
             {
               "value": {
@@ -2718,7 +2795,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 10
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 8
             },
             {
               "value": {
@@ -3031,7 +3119,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 7
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 6
             },
             {
               "value": {
@@ -3359,6 +3458,17 @@
               "value": {
                 "stack": {
                   "item": "the_vault:shield",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
                 },
                 "minCount": 1,
@@ -3797,6 +3907,17 @@
             {
               "value": {
                 "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:magnet",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
                 },
@@ -4205,6 +4326,17 @@
               "value": {
                 "stack": {
                   "item": "the_vault:shield",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
                 },
                 "minCount": 1,
@@ -5530,7 +5662,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 7
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 6
             },
             {
               "value": {
@@ -5841,7 +5984,18 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 7
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 6
             },
             {
               "value": {
@@ -6137,6 +6291,17 @@
               "value": {
                 "stack": {
                   "item": "the_vault:shield",
+                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:wand",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
                 },
                 "minCount": 1,
