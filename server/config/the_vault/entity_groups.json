@@ -165,6 +165,11 @@
       "rottencreatures:mummy",
       "rottencreatures:glacial_hunter"
     ],
+    "the_vault:guardian": [
+      "the_vault:bruiser_guardian",
+      "the_vault:arbalist_guardian"
+      
+    ],
     "the_vault:winterwalker": [
       "the_vault:winterwalker_t0",
       "the_vault:winterwalker_t1",

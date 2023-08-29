@@ -51,4 +51,4 @@ fi
 } > user_jvm_args.txt
 
 # Call the Vault Hunters start script
-./start.sh
+/server/start.sh

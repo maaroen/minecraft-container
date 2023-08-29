@@ -117,6 +117,42 @@
     },
     "the_vault:classic_vault_blood_moon": {
       "the_vault:augment{theme:\"the_vault:classic_vault_blood_moon\"}": 5
+    },
+    "the_vault:raw_vault_cave_granite": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_granite_lvl10": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_granite_lvl20": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_granite_lvl30": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_diorite": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_diorite_lvl10": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_diorite_lvl20": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_diorite_lvl30": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_andersite": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_andersite_lvl10": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_andersite_lvl20": {
+      "minecraft:air": 1
+    },
+    "the_vault:raw_vault_cave_andersite_lvl30": {
+      "minecraft:air": 1
     }
   }
 }

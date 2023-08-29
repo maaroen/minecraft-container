@@ -249,14 +249,18 @@
       "the_vault:gear/wand/twig"
     ],
     "RARE": [
-      "the_vault:gear/wand/archmage"
+      "the_vault:gear/wand/archmage",
+      "the_vault:gear/wand/lunar"
     ],
     "EPIC": [
-      "the_vault:gear/wand/ender"
+      "the_vault:gear/wand/ender",
+      "the_vault:gear/wand/druid",
+      "the_vault:gear/wand/gorgeous"
     ],
     "OMEGA": [
       "the_vault:gear/wand/master",
-      "the_vault:gear/wand/starlight"
+      "the_vault:gear/wand/starlight",
+      "the_vault:gear/wand/iskallium"
     ],
     "UNIQUE": [
     ]

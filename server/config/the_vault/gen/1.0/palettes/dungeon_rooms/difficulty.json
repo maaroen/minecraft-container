@@ -76,78 +76,22 @@
             "output": {
                 "the_vault:placeholder{ ItemRarity:1.5f }": 1
             }
-        },
-
-
-
-
-
-
-
-
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Hard }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.max_health\": {Value:0.5, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Challenging }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.max_health\": {Value:1.0, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Extreme }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.max_health\": {Value:2.0, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Impossible }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.max_health\": {Value:3.0, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Hard }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.attack_damage\": {Value:0.5, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Challenging }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.attack_damage\": {Value:1.0, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Extreme }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.attack_damage\": {Value:2.0, Operation:2}}}": 1
-            }
-        },
-        {
-            "type": "spawner_element",
-            "target": "ispawner:spawner{ Difficulty: Impossible }",
-            "element": "",
-            "output": {
-                "{Modifiers: {\"generic.attack_damage\": {Value:3.0, Operation:2}}}": 1
-            }
         }
+
+
+
+
+
+
+
+        
+        
+
+
+        
+        
+        
+        
+        
     ]
 }

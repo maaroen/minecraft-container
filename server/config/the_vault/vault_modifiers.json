@@ -3,12 +3,12 @@
     "the_vault:modifier_type/chance_artifact": {
       "the_vault:prosperous": {
         "properties": {
-          "chance": 0.1
+          "chance": 0.5
         },
         "display": {
           "name": "Prosperous",
           "color": "#EBFF8D",
-          "description": "+10% Artifact Chance",
+          "description": "+50% Artifact Chance",
           "descriptionFormatted": "+%d%% Artifact Chance",
           "icon": "the_vault:gui/modifiers/more_artifact1"
         }
@@ -17,12 +17,12 @@
     "the_vault:modifier_type/chance_catalyst": {
       "the_vault:prismatic": {
         "properties": {
-          "chance": 0.1
+          "chance": 0.25
         },
         "display": {
           "name": "Prismatic",
           "color": "#FC00E3",
-          "description": "+10% Catalyst Fragments",
+          "description": "+25% Catalyst Fragments",
           "descriptionFormatted": "+%d%% Catalyst Fragments",
           "icon": "the_vault:gui/modifiers/more_catalyst"
         }
@@ -36,7 +36,7 @@
         "display": {
           "name": "Looter's Dream",
           "color": "#A3E2F5",
-          "description": "No Trap Chance",
+          "description": "Chests can not be trapped",
           "icon": "the_vault:gui/modifiers/safezone"
         }
       },
@@ -112,6 +112,18 @@
           "name": "Haunted",
           "color": "#6410A1",
           "description": "+50% Soul Shard Drop Rate",
+          "descriptionFormatted": "+%d%% Soul Shards",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:soul_surge": {
+        "properties": {
+          "chance": 1.0
+        },
+        "display": {
+          "name": "Soul Surge",
+          "color": "#6410A1",
+          "description": "+100% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
           "icon": "the_vault:gui/modifiers/haunted"
         }
@@ -269,6 +281,18 @@
           "icon": "the_vault:gui/modifiers/opulent"
         }
       },
+      "the_vault:hoard": {
+        "properties": {
+          "percentage": 0.5
+        },
+        "display": {
+          "name": "Hoard",
+          "color": "#38C9C0",
+          "description": "+50% Item Quantity",
+          "descriptionFormatted": "+%d%% Item Quantity",
+          "icon": "the_vault:gui/modifiers/opulent"
+        }
+      },
       "the_vault:cake_item_quantity": {
         "properties": {
           "percentage": 0.01
@@ -330,6 +354,18 @@
           "name": "Lucky",
           "color": "#b3ff20",
           "description": "+20% Item Rarity",
+          "descriptionFormatted": "+%d%% Item Rarity",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:treasure": {
+        "properties": {
+          "percentage": 0.5
+        },
+        "display": {
+          "name": "Treasure",
+          "color": "#b3ff20",
+          "description": "+50% Item Rarity",
           "descriptionFormatted": "+%d%% Item Rarity",
           "icon": "the_vault:gui/modifiers/lucky"
         }
@@ -1244,6 +1280,18 @@
           "descriptionFormatted": "+%d%% Vault Experience",
           "icon": "the_vault:gui/modifiers/experienced"
         }
+      },
+      "the_vault:enlighted": {
+        "properties": {
+          "addend": 1.0
+        },
+        "display": {
+          "name": "Enlightened",
+          "color": "#DB7C00",
+          "description": "+100% Vault Experience",
+          "descriptionFormatted": "+%d%% Vault Experience",
+          "icon": "the_vault:gui/modifiers/experienced"
+        }
       }
     },
     "the_vault:modifier_type/inline_pool": {
@@ -1349,6 +1397,19 @@
           "description": "+30% Spawners",
           "descriptionFormatted": "+%d%% Spawners",
           "icon": "the_vault:gui/modifiers/wealhty"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_champion": {
+      "the_vault:champion_chance": {
+        "properties": {
+          "chance": 0.1
+        },
+        "display": {
+          "name": "Champion's Abode",
+          "color": "#c346aa",
+          "description": "+10% Chance for Champions to Spawn",
+          "icon": "the_vault:gui/modifiers/champions_abode"
         }
       }
     }

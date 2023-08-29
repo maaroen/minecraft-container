@@ -20,7 +20,7 @@
       "eternals": "#C7FFE7",
       "force": "#5ae09c",
       "fortune": "#8bd0c9",
-      "freezeDuration": "#0000FF",
+      "freezeDuration": "#2FE1FA",
       "heal": "#7DF587",
       "knockback": "#FFB00F",
       "leech": "#cf0000",
@@ -37,6 +37,7 @@
       "slowness": "#d1d0ae",
       "text": "#192022",
       "unbreaking": "#dcc4f0"
+      
     },
     "custom": {
       "castType": "#1e1e1e",
@@ -65,8 +66,17 @@
       "legendary": "#f5901d",
       "chilling": "#2FE1FA",
       "chilled": "#2FE1FA",
+      "maxGlacialPrison": "#2FE1FA",
       "maxStacks": "#36ffa7",
-      "stacksUsedPerHit": "#6b1c00"
+      "stacksUsedPerHit": "#6b1c00",
+      "red": "#ff0202",
+      "blue": "#0060ff",
+      "itemquantity": "#e88a12",
+      "itemrarity": "#e5b819",
+      "knowledge": "#8bf5db",
+      "expertise": "#fc30bc",
+      "regret": "#d92946",
+      "gilded": "#d7ad16"
     }
   }
 }

@@ -214,7 +214,7 @@
           }
         },
         {
-          "weight": 3,
+          "weight": 10,
           "item": {
             "id": "the_vault:vault_gold",
             "count": {
@@ -283,7 +283,7 @@
             "id": "the_vault:mod_box",
             "count": {
               "type": "uniform",
-              "min": 2,
+              "min": 1,
               "max": 4
               }
           }

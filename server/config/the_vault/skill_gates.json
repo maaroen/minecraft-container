@@ -114,7 +114,7 @@
         "lockedBy": []
       },
       "Double Pouches": {
-        "dependsOn": [{ "type": "constant", "id": "Pouches" }],
+        "dependsOn": [],
         "ignoreArrow": true,
         "lockedBy": []
       },
@@ -151,7 +151,6 @@
           { "type": "constant", "id": "Mekanism QIO" },
           { "type": "constant", "id": "Refined Storage" },
           { "type": "constant", "id": "Applied Energistics" },
-          { "type": "constant", "id": "Pouches" },
           { "type": "constant", "id": "Double Pouches" },
           { "type": "constant", "id": "Belts" },
           { "type": "constant", "id": "Backpacks" },
@@ -179,7 +178,7 @@
           { "type": "constant", "id": "Vault Compass" },
           { "type": "constant", "id": "Altar Automation" },
           { "type": "constant", "id": "Building Gadgets" },
-          { "type": "constant", "id": "Chunkloading" },
+          { "type": "constant", "id": "Weirding Gadgets" },
           { "type": "constant", "id": "Mining Gadgets" },
           { "type": "constant", "id": "Digital Miner" },
           { "type": "constant", "id": "Easy Villagers" },

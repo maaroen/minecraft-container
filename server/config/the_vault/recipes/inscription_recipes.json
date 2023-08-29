@@ -9,8 +9,8 @@
       },
       "inputs": [
         {
-          "AMOUNT": 64,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -34,8 +34,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -64,8 +64,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 512,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -94,8 +94,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 512,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -125,8 +125,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -155,17 +155,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
           "AMOUNT": 32,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 8,
           "ITEM": "the_vault:gem_echo",
           "NBT": "{}"
         }
@@ -205,8 +200,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -229,21 +224,6 @@
         "NBT": "{pool:\"the_vault:vendor\", data:{color:7012096,model:12}, display:{Name:'{\"text\":\"Vendor Inscription\",\"color\":\"#6AFF00\"}' }}"
       },
       "inputs": [
-        {
-          "AMOUNT": 32,
-          "ITEM": "the_vault:poisonous_mushroom",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:hunter_eye",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
         {
           "AMOUNT": 32,
           "ITEM": "the_vault:inscription_piece",
@@ -270,8 +250,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -295,13 +275,13 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:inscription_piece",
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gem_echo",
           "NBT": "{}"
         }
       ]
@@ -320,8 +300,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -345,8 +325,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 256,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -370,8 +350,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -405,8 +385,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 256,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {

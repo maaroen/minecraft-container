@@ -3,7 +3,22 @@
   "entityChampionChance": {
     "@the_vault:dungeon": 0.02,
     "@the_vault:tank": 0.02,
-    "@the_vault:horde": 0.0
+    "@the_vault:horde": -0.5,
+    "the_vault:smolcap": -0.5,
+    "minecraft:villager": -0.5,
+    "minecraft:chicken": -0.5,
+    "rottencreatures:flying_scarab": -0.5,
+    "minecraft:cod": -0.5,
+    "minecraft:salmon": -0.5,
+    "minecraft:tropical_fish": -0.5,
+    "minecraft:axolotl": -0.5,
+    "minecraft:pufferfish": -0.5,
+    "rottencreatures:scarab": -0.5,
+    "minecraft:shulker": -0.5,
+    "minecraft:shulker_bullet": -0.5,
+    "minecraft:slime": -0.5,
+    "rottencreatures:zombie_lackey": -0.5,
+    "rottencreatures:skeleton_lackey": -0.5
   },
   "defaultAttributeOverrides": [
     {

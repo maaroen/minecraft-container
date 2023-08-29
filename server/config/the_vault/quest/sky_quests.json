@@ -400,36 +400,6 @@
       }
     },
     {
-      "type": "collection",
-      "id": "shard_pouch",
-      "name": "Collecting Soul Shards",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "Unaliving mobs inside the Vaults will award the player Soul Shards. Soul Shards can be used as currency for the Black Market and as a crafting ingredient. The chance for Soul Shards to drop can be increased by modifying gear with Soul Chance or by equipping the Idona's Dagger.\n\nSoul Shards can be stored within the Shard Pouch infinitely!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCraft a Shard Pouch",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/black_market2",
-      "targetId": "the_vault:shard_pouch",
-      "targetProgress": 1.0,
-      "unlockedBy": "vault_potions",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:soul_shard",
-            "amount": 32
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
       "type": "checkmark",
       "id": "enter_vault",
       "name": "Vault Hunting",
@@ -444,7 +414,7 @@
       "icon": "the_vault:gui/quests/enter_vault",
       "targetId": "the_vault:any",
       "targetProgress": 1.0,
-      "unlockedBy": "shard_pouch",
+      "unlockedBy": "vault_potions",
       "reward": {
         "items": [
           {
@@ -456,9 +426,171 @@
       }
     },
     {
-      "type": "bounty_complete",
+      "type": "collection",
+      "id": "shard_pouch",
+      "name": "Looting!",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Looting in vaults is fun, and there are a lot of exciting things to find!\nGear stats like",
+            "color": "$text"
+          },
+          {
+            "text": " item quantity ",
+            "color": "$itemquantity"
+          },
+          {
+            "text": "increases the amount of loot you find while",
+            "color": "$text"
+          },
+          {
+            "text": " item rarity ",
+            "color": "$itemrarity"
+          },
+          {
+            "text": "makes you find higher tier loot.\n",
+            "color": "$text"
+          },
+          {
+            "text": "In addition to chests having loot, killing mobs will yield",
+            "color": "$text"
+          },
+          {
+            "text": " soul shards",
+            "color": "$soulchance"
+          },
+          {
+            "text": ", which can be used to purchase rare items in the",
+            "color": "$text"
+          },
+          {
+            "text": " Black Market",
+            "color": "$name"
+          },
+          {
+            "text": ".\nHowever, all of this loot can quickly become overwhelming, and any good hunter needs good loot organisation!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Shulker Boxes can go a long way in the beginning, and their shells can be found inside ",
+            "color": "$text"
+          },
+          {
+            "text": "Wooden Chests",
+            "color": "$name"
+          },
+          {
+            "text": ", however, a ",
+            "color": "$text"
+          },
+          {
+            "text": "Pouch",
+            "color": "$name"
+          },
+          {
+            "text": " is a much better and more reliable way to collect your loot.\n",
+            "color": "$text"
+          },
+          {
+            "text": "The first pouch of your journey is on us, but we do recommend crafting more as you progress. Bigger pouches, belts and backpacks can later be researched for ",
+            "color": "$text"
+          },
+          {
+            "text": "knowledge\n\n",
+            "color": "$knowledge"
+          },
+          {
+            "text": "Pouches can be upgraded with upgrade cards to make them carry more loot, automatically pick up loot when you break a chest, void excess loot and even feed you!\n",
+            "color": "$text"
+          },
+          {
+            "text": "The pouch itself can also be configured with a filter, or left empty to fit any items.\nTo configure a filter, open your pouch and browse to the ",
+            "color": "$text"
+          },
+          {
+            "text": "Backpack Settings",
+            "color": "$name"
+          },
+          {
+            "text": " tab inside it. The ",
+            "color": "$text"
+          },
+          {
+            "text": "Slot Memory Settings",
+            "color": "$name"
+          },
+          {
+            "text": " tab allows you to set a filter for your pouch to either whitelist or blacklist certain content to go inside it. These filters can also be saved and reapplied to other pouches later on. We recommend you play around with these settings until you understand the system.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Completing this quest will reward you with two basic upgrades, which can both be installed in your pouch:\n",
+            "color": "$text"
+          },
+          {
+            "text": "The Pickup Upgrade",
+            "color": "$name"
+          },
+          {
+            "text": " which will make the pouch automatically pick up items from the floor, when a chest is broken or items are thrown out of it\n",
+            "color": "$text"
+          },
+          {
+            "text": "The Void Upgrade",
+            "color": "$name"
+          },
+          {
+            "text": " which can be configured to void (delete) any excess items that can't fit in your pouch. Voiding items may sound weird, but can be extremely useful to improve your early game looting. These are expensive to craft however, so use the one from this quest wisely!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Shards",
+            "color": "$soulchance"
+          },
+          {
+            "text": ", the items dropped from mobs, are better to store in a ",
+            "color": "$text"
+          },
+          {
+            "text": "Shard Pouch",
+            "color": "$soulchance"
+          },
+          {
+            "text": ". The Shard Pouch can only store Soul Shards, but an infinite amount of them as long as it is in your inventory. It can also be left in your inventory while purchasing things from the Black Market, without you having to manually count Soul Shards, it is a must have for any hunter!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCraft a Shard Pouch",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/black_market2",
+      "targetId": "the_vault:shard_pouch",
+      "targetProgress": 1.0,
+      "unlockedBy": "enter_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "sophisticatedbackpacks:backpack",
+            "amount": 1
+          },
+          {
+            "item": "sophisticatedbackpacks:pickup_upgrade",
+            "amount": 1
+          },
+          {
+            "item": "sophisticatedbackpacks:void_upgrade",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
       "id": "complete_bounty",
-      "name": "Bounties and Rewards",
+      "name": "The Bounty Hunter",
       "descriptionData": {
         "description": [
           {
@@ -466,7 +598,33 @@
             "color": "$text"
           },
           {
-            "text": "\n\nHere you can select a bounty by clicking on one of the available bounties and clicking activate. Once you complete a bounty then you can go back to the table and collect your rewards.",
+            "text": "\n\nCraft a Bounty Table",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/bounty_table",
+      "targetId": "the_vault:bounty_block",
+      "targetProgress": 1.0,
+      "unlockedBy": "shard_pouch",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:bounty_pearl",
+            "amount": 10
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "bounty_complete",
+      "id": "complete_bounty2",
+      "name": "Bounties and Rewards",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Inside the Bounty Table you can select a bounty by clicking on one of the available bounties and clicking activate. Once you complete a bounty then you can go back to the table and collect your rewards.",
             "color": "$text"
           },
           {
@@ -478,12 +636,12 @@
       "icon": "the_vault:gui/quests/bounty",
       "targetId": "the_vault:any",
       "targetProgress": 1.0,
-      "unlockedBy": "enter_vault",
+      "unlockedBy": "complete_bounty",
       "reward": {
         "items": [
           {
-            "item": "the_vault:bounty_pearl",
-            "amount": 2
+            "item": "the_vault:chromatic_iron_ingot",
+            "amount": 32
           }
         ],
         "vaultExp": 0
@@ -508,7 +666,7 @@
       "icon": "the_vault:gui/quests/station",
       "targetId": "the_vault:tool_station",
       "targetProgress": 1.0,
-      "unlockedBy": "complete_bounty",
+      "unlockedBy": "complete_bounty2",
       "reward": {
         "items": [
           {
@@ -828,11 +986,11 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Artisan Station can be used to further modify and create gear that is suited towards a certain build style. The interface has slots for Vault Plating, Vault Bronze, A wide variety differently functioning focuses and your Vault Gear.",
+            "text": "The Artisan Station can be used to further modify and create gear that is suited towards a certain build style. The interface has slots for Vault Plating, Vault Bronze, A wide variety of differently functioning focuses and your Vault Gear.",
             "color": "$text"
           },
           {
-            "text": "\n\nAcquire a Artisan Station",
+            "text": "\n\nAcquire an Artisan Station",
             "color": "$heal"
           }
         ]
@@ -1061,7 +1219,7 @@
           }
         ]
       },
-      "icon": "the_vault:gui/quests/apply_jewel",
+      "icon": "the_vault:gui/quests/jewel_cutting",
       "targetId": "the_vault:vault_jewel_cutting_station",
       "targetProgress": 1.0,
       "unlockedBy": "complete_god_altar",
@@ -1194,6 +1352,144 @@
       }
     },
     {
+      "type": "checkmark",
+      "id": "trinkets",
+      "name": "Trinkets",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Another big change after level 20 is the ability to find Trinkets!\nThese are powerful items that can be equipped in your bauble slots. They come in two different colours, ",
+            "color": "$text"
+          },
+          {
+            "text": "blue",
+            "color": "$blue"
+          },
+          {
+            "text": " and ",
+            "color": "$text"
+          },
+          {
+            "text": "red",
+            "color": "$red"
+          },
+          {
+            "text": ". You may equip one of each colour at any given time for a total of two trinkets.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Blue",
+            "color": "$blue"
+          },
+          {
+            "text": " trinkets give you a feature that can't be acquired elsewhere, for example the ability to ",
+            "color": "$text"
+          },
+          {
+            "text": "triple jump",
+            "color": "$name"
+          },
+          {
+            "text": " or ",
+            "color": "$text"
+          },
+          {
+            "text": "climb walls",
+            "color": "$name"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Red",
+            "color": "$red"
+          },
+          {
+            "text": " trinkets enhance stats, such as ",
+            "color": "$text"
+          },
+          {
+            "text": "mana regeneration",
+            "color": "$manaCost"
+          },
+          {
+            "text": " or ",
+            "color": "$text"
+          },
+          {
+            "text": "health",
+            "color": "$heal"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Trinkets don't have durability, instead they have uses, or charges. They can be permanently used outside vaults without any cost, but they will use up one charge every time you enter a vault with one equipped. They can also not be unequipped inside a vault.\nThere is an ",
+            "color": "$text"
+          },
+          {
+            "text": "expertise",
+            "color": "$expertise"
+          },
+          {
+            "text": " called ",
+            "color": "$text"
+          },
+          {
+            "text": "Trinketer",
+            "color": "$expertise"
+          },
+          {
+            "text": " which gives you a random chance to not use a trinket charge when entering a vault.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Once you have found a trinket, it will be permanently discovered and can be crafted in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Vault Forge",
+            "color": "$name"
+          },
+          {
+            "text": ".\nA Crafted Trinket will always have 12 uses/charges, while a looted trinket randomly rolls 20 to 30 uses/charges.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nYour first trinket is a reward of reading this quest, hopefully you get something you will like! If you don't, trinkets can be scrapped in the Vault Recycler, which yields their main ingredient: ",
+            "color": "$text"
+          },
+          {
+            "text": "Trinket Scrap",
+            "color": "$name"
+          },
+          {
+            "text": ".\nThe chance to get a Trinket Scrap is determined by how many uses/charges the trinket have left when being scrapped; A fully charged trinket will always yield the scrap, while a completely depleted one will never yield the scrap.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/trinket",
+      "targetId": "the_vault:trinket",
+      "targetProgress": 1.0,
+      "unlockedBy": "spirit_extractor",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:trinket",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "anvil",
       "id": "apply_catalyst",
       "name": "Using Infused Catalysts",
@@ -1220,7 +1516,7 @@
       "icon": "the_vault:gui/quests/catalyst",
       "targetId": "the_vault:vault_catalyst_infused",
       "targetProgress": 1.0,
-      "unlockedBy": "spirit_extractor",
+      "unlockedBy": "trinkets",
       "reward": {
         "items": [
           {
@@ -1555,6 +1851,35 @@
       }
     },
     {
+      "type": "level_up",
+      "id": "reach_level_50",
+      "name": "Forgetting Expertises",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Reaching Vault Level 50 marks the halfway point in terms of levels, this means that you currently have half of your total expertise points already. The Neuralizer allows you to completely reset your currently specced expertise points in case you change your mind and decide that another expertise may suit your needs better!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nReach Vault Level 50",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/level50",
+      "targetId": "the_vault:50",
+      "targetProgress": 1.0,
+      "unlockedBy": "artifact",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:neuralizer"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "crafting",
       "id": "tbd",
       "name": "More to come!",
@@ -1573,7 +1898,7 @@
       "icon": "the_vault:gui/quests/tbd",
       "targetId": "minecraft:bedrock",
       "targetProgress": 100.0,
-      "unlockedBy": "artifact",
+      "unlockedBy": "reach_level_50",
       "reward": {
         "items": [
           {

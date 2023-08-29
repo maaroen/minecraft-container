@@ -611,6 +611,21 @@
       "1.0": "config/the_vault/gen/1.0/palettes/raw/universal_raw_cave.json"
     },
     {
+      "id": "the_vault:raw/universal_raw_cave_granite",
+      "name": "Universal Raw Cave Granite",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/universal_raw_cave_granite.json"
+    },
+    {
+      "id": "the_vault:raw/universal_raw_cave_diorite",
+      "name": "Universal Raw Cave Diorite",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/universal_raw_cave_diorite.json"
+    },
+    {
+      "id": "the_vault:raw/universal_raw_cave_andersite",
+      "name": "Universal Raw Cave Andersite",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/universal_raw_cave_andersite.json"
+    },
+    {
       "id": "the_vault:raw/villager_spawner",
       "name": "Villager Spawner",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/villager_spawner.json"
@@ -1049,6 +1064,16 @@
       "id": "the_vault:dungeon_rooms/extreme",
       "name": "Dungeon Extreme",
       "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/extreme.json"
+    },
+    {
+      "id": "the_vault:raw/treasure_door_placeholder",
+      "name": "Raw Treasure Door Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/treasure_door_placeholder.json"
+    },
+    {
+      "id": "the_vault:raw/objective_placeholder",
+      "name": "Objective Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/objective_placeholder.json"
     }
   ]
 }

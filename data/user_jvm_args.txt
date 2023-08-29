@@ -1,0 +1,3 @@
+# WARNING: AUTO-GENERATED
+# WARNING: Use the container environment variable JVM_OPTS
+-XmX6g

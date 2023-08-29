@@ -43,7 +43,7 @@
             "target": "minecraft:grass_block",
             "output": {
                 "the_vault:vault_cobblestone": 1,
-                "ae2:sky_stone_block": 1,
+                "auxiliaryblocks:asphalt": 1,
                 "the_vault:polished_vault_stone": 1
             }
         },
@@ -71,7 +71,7 @@
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "ae2:sky_stone_block": 1
+                "the_vault:polished_vault_stone_slab": 1
             }
         },
         {

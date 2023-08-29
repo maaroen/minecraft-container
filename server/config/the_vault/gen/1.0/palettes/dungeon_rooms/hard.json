@@ -15,6 +15,22 @@
             }
         },
         {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Hard }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:0.5, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Hard }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:0.5, Operation:2}}}": 1
+            }
+        },
+        {
             "type": "reference",
             "id": "the_vault:dungeon_rooms/difficulty"
         }

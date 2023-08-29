@@ -8,7 +8,9 @@
           "level": 0,
           "probability": 0.8,
           "success": {
-            "the_vault:living_chest{LootTable:\"the_vault:living_chest_raw\"}": 1
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl0\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl0\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl0\"}": 12
           },
           "failure": {
             "minecraft:air": 1

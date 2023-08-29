@@ -2128,6 +2128,111 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blood_moon_tunnels.json"
     },
     {
+      "id": "the_vault:vault/rooms/raw_cave_granite_common_rooms",
+      "name": "Raw Cave Granite Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl0",
+      "name": "Raw Cave Granite Rooms LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl10",
+      "name": "Raw Cave Granite Rooms LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl20",
+      "name": "Raw Cave Granite Rooms LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl30",
+      "name": "Raw Cave Granite Rooms LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_granite_starts",
+      "name": "Raw Cave Granite Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_granite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_granite_tunnels",
+      "name": "Raw Cave Granite Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_granite_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_common_rooms",
+      "name": "Raw Cave Diorite Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl0",
+      "name": "Raw Cave Diorite Rooms LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl10",
+      "name": "Raw Cave Diorite Rooms LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl20",
+      "name": "Raw Cave Diorite Rooms LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl30",
+      "name": "Raw Cave Diorite Rooms LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_diorite_starts",
+      "name": "Raw Cave Diorite Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_diorite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_diorite_tunnels",
+      "name": "Raw Cave Diorite Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_diorite_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_common_rooms",
+      "name": "Raw Cave Andersite Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl0",
+      "name": "Raw Cave Andersite Rooms LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl10",
+      "name": "Raw Cave Andersite Rooms LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl20",
+      "name": "Raw Cave Andersite Rooms LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl30",
+      "name": "Raw Cave Andersite Rooms LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_andersite_starts",
+      "name": "Raw Cave Andersite Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_andersite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_andersite_tunnels",
+      "name": "Raw Cave Andersite Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_andersite_tunnels.json"
+    },
+    {
       "id": "the_vault:vault/dungeon_rooms/pillager_rooms",
       "name": "Pillager Dungeon Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/pillager_rooms.json"

@@ -15,8 +15,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -27,11 +27,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -51,8 +46,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -63,11 +58,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -87,8 +77,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -99,11 +89,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -123,8 +108,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -135,11 +120,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -159,8 +139,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -171,11 +151,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -195,8 +170,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -207,11 +182,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -231,8 +201,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -243,11 +213,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -267,8 +232,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -279,11 +244,6 @@
         {
           "AMOUNT": 2,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]
@@ -303,8 +263,8 @@
           "NBT": "{type:\"velara\"}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -334,8 +294,8 @@
           "NBT": "{type:\"tenos\"}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -365,8 +325,8 @@
           "NBT": "{type:\"wendarr\"}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -396,8 +356,8 @@
           "NBT": "{type:\"idona\"}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -427,8 +387,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 81,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -439,11 +399,6 @@
         {
           "AMOUNT": 1,
           "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
           "NBT": "{}"
         }
       ]

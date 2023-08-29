@@ -453,6 +453,18 @@
           {
             "value": "the_vault:raw_vault_cave",
             "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_granite",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_diorite",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_andersite",
+            "weight": 1
           }
         ]
       },
@@ -461,6 +473,18 @@
         "pool": [
           {
             "value": "the_vault:raw_vault_cave_lvl10",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_granite_lvl10",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_diorite_lvl10",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_andersite_lvl10",
             "weight": 1
           }
         ]
@@ -471,6 +495,18 @@
           {
             "value": "the_vault:raw_vault_cave_lvl20",
             "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_granite_lvl20",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_diorite_lvl20",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_andersite_lvl20",
+            "weight": 1
           }
         ]
       },
@@ -479,6 +515,18 @@
         "pool": [
           {
             "value": "the_vault:raw_vault_cave_lvl30",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_granite_lvl30",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_diorite_lvl30",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:raw_vault_cave_andersite_lvl30",
             "weight": 1
           }
         ]
@@ -1009,8 +1057,8 @@
             "objective_probability": 0.8,
             "target": {
               "type": "uniform",
-              "min": 3,
-              "max": 5
+              "min": 1,
+              "max": 3
             }
           },
           "weight": 8
@@ -1054,11 +1102,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.6,
+            "objective_probability": 0.7,
             "target": {
               "type": "uniform",
-              "min": 6,
-              "max": 9
+              "min": 4,
+              "max": 8
             }
           },
           "weight": 4
@@ -1105,8 +1153,8 @@
             "objective_probability": 0.7,
             "target": {
               "type": "uniform",
-              "min": 7,
-              "max": 10
+              "min": 6,
+              "max": 9
             }
           },
           "weight": 4
@@ -1150,11 +1198,11 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.6,
+            "objective_probability": 0.7,
             "target": {
               "type": "uniform",
               "min": 8,
-              "max": 13
+              "max": 11
             }
           },
           "weight": 4
@@ -1198,7 +1246,7 @@
         {
           "value": {
             "type": "monolith",
-            "objective_probability": 0.6,
+            "objective_probability": 0.7,
             "target": {
               "type": "uniform",
               "min": 10,
