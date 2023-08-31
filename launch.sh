@@ -38,6 +38,9 @@ fi
 if [[ -n "$DIFFICULTY" ]]; then
     sed -i "/difficulty\s*=/ c difficulty=$DIFFICULTY" server.properties
 fi
+if [[ -n "$WHITELIST_ENABLED" ]]; then
+    sed -i "/white-list\s*=/ c white-list=$WHITELIST_ENABLED" server.properties
+fi
 
 if [[ -n "$OPS" ]]; then
     echo $OPS | awk -v RS=, '{print}' >> ops.txt
